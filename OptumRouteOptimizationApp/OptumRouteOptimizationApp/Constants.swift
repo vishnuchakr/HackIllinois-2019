@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public class Constants {
+    
+    public static var serverURL:String = "http://http://10.193.74.106:3000/"
+    
+}
