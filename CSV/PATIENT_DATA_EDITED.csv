@@ -1,0 +1,27 @@
+patient_id,first_name,last_name,street_address,phone_number,therapy_category,drug_name,city,state
+1,Ferdinanda,Artus,802 W University Ave,111-158-8031,Therapy 2,,Urbana ,IL
+2,Stormi,Lockart,610 E Daniel St,174-337-7179,Therapy 2,Lithium Carbonate,Champaign,IL
+3,Gerrilee,Bust,616 E Green St,508-855-2379,Therapy 3,,Champaign,IL
+4,Tamarah,Gawkes,45 E University Ave,187-175-7227,Therapy 2,,Champaign,IL
+5,Wally,Twycross,1401 S Neil St,904-491-0167,Therapy 1,,Champaign,IL
+6,Roma,Arzu,706 W Marketview Dr,264-616-5416,Therapy 3,,Champaign,IL
+7,Akim,Torrisi,2740 S Philo Rd,529-615-4232,Therapy 2,,Urbana ,IL
+8,Moreen,Cookson,2610 N Prospect Ave,388-950-1452,Therapy 1,,Champaign,IL
+9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL
+10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL
+11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL
+12,Marie,Van Arsdalen,4200 W Springfield Ave,738-441-5811,Therapy 3,,Champaign,IL
+13,Giacobo,Kirstein,505 S Dunlap Ave,748-659-9510,Therapy 2,,Savoy,IL
+14,Ilse,Caldero,2409 Village Green Pl,447-872-7070,Therapy 2,,Champaign,IL
+15,Fifi,Fellgate,306 S Market St,938-955-6818,Therapy 2,,Monticello,
+16,Megen,Sollett,1005 E Southline Rd,951-564-8839,Therapy 1,,Tuscola,
+17,Gothart,Mulliss,711 W Champaign Ave,551-891-4945,Therapy 1,,Rantoul,
+18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL
+19,Mart,Standfield,1705 S Philo Rd,402-665-8308,Therapy 1,,Urbana ,IL
+20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL
+21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL
+22,Gaspard,Amery,1302 N Prospect Ave,763-139-7291,Therapy 2,Duloxetine,Champaign,IL
+23,Torrey,Leyden,515 S Neil St,607-446-5925,Therapy 3,,Champaign,IL
+24,Rinaldo,Attkins,404 W University Ave,129-178-2782,Therapy 1,"Belladonna, Bryonia, Capsicum annuum, Chininum arsenicosum, Coffea cruda, Gelsemium sempervirens, Glonoinum, Ignatia amara, Kali bichromicum, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Sanguinaria canadensis, Spigelia anthelmia, Sulphur.",Urbana ,IL
+25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL
+26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL
