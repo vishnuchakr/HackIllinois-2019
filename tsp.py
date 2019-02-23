@@ -1,6 +1,6 @@
 from ortools.constraint_solver import pywrapcp
 from ortools.constraint_solver import routing_enums_pb2
-from routeOptimizer.py import get_distance
+from routeOptimizer.py import get_distance_matrix
 
 # Distance callback
 def create_distance_callback(dist_matrix):
@@ -13,7 +13,7 @@ def create_distance_callback(dist_matrix):
 
 def optimal_route():
     
-    distance_array = get_distance('CSV/PATIENT_TASK_DATA.csv', 55)
+    distance_array = get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 55)
     '''
     tsp_size = len(distance_array)
     num_routes = 1
