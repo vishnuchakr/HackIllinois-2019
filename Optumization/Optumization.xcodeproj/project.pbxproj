@@ -17,6 +17,7 @@
 		A31C9DD02222068900E9747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DCE2222068900E9747C /* LaunchScreen.storyboard */; };
 		A31C9DDB2222068900E9747C /* OptumizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DDA2222068900E9747C /* OptumizationTests.swift */; };
 		A31C9DE62222068900E9747C /* OptumizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DE52222068900E9747C /* OptumizationUITests.swift */; };
+		A31C9DF62222101F00E9747C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DF52222101F00E9747C /* Constants.swift */; };
 		F442C9CE4E324CD3F4808A76 /* libPods-Optumization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 441DDA9949F65268801DDD58 /* libPods-Optumization.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A31C9DE12222068900E9747C /* OptumizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptumizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31C9DE52222068900E9747C /* OptumizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptumizationUITests.swift; sourceTree = "<group>"; };
 		A31C9DE72222068900E9747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31C9DF52222101F00E9747C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BB47C63F9CBD98B2C7A11596 /* Pods-Optumization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.release.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				A31C9DC92222068600E9747C /* Optumization.xcdatamodeld */,
 				0098995D2222099200846592 /* DailyMapViewController.swift */,
 				0098995F222209B400846592 /* CurrentPatientViewController.swift */,
+				A31C9DF52222101F00E9747C /* Constants.swift */,
 			);
 			path = Optumization;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */,
 				A31C9DCB2222068600E9747C /* Optumization.xcdatamodeld in Sources */,
 				0098995E2222099200846592 /* DailyMapViewController.swift in Sources */,
+				A31C9DF62222101F00E9747C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
