@@ -3,48 +3,32 @@
 import googlemaps
 from datetime import datetime
 import pandas as pd
+import numpy as np
 
-def next_destination(filename):
+def get_distance matrix(filename, employee_id):
 	patient_df = pd.read_csv(filename)
+	patient_df = patient_df[patient_df['employee_id'] == employee_id]
+	patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
 
-	node_list = []
+	# api_key = open("api_key.txt","r")
+	gmaps = googlemaps.Client(key='AIzaSyBqOYdq9KFQb9SCPz_A3A5TS6ILUD0f76k')
+	now = datetime.now()
 
-	for index, row in patient_df.iterrows():
-		node_list.append(Node(row['patient_id'], row['last_name'], row['street_address'], row['city'], row['state'], row['prioirty_level']))
+	dist_matrix = gmaps.distance_matrix(origins=patient_df['full_address'], destinations=patient_df['full_address'], mode='driving', departure_time=now)
+	matrix_rows = dist_matrix['rows']
 
-	api_key = open("api_key.txt","r")
+	array = np.zeros((len(patient_df['full_address']), len(patient_df['full_address'])))
 
-	
+	count = 0
 
-class Node():
+	for i in range(0, len(patient_df['full_address'])):
+		for j in range(0, len(patient_df['full_address'])):
+			time_as_str = dist_matrix['rows'][i]['elements'][j]['duration']['text']
+			split = time_as_str.split(' ')
+			array[i, j] = split[0]
+			count += 1
 
-	def __init__(self, patient_id, patient_name, street_address, city, state, priority_level, therapy_type, edge_list):
-		self.patient_id = patient_id
-		self.patient_name = patient_name
-		self.street_address = street_address
-		self.city = city
-		self.state = state
-		self.full_address = street_address + ', ' + city  + ', ' + state
-		self.priority_level = priority_level
-		self.therapy_type = therapy_type
-		self.edge_list = []
-
-	def initialize_edge_list(other_nodes, key):
-		gmaps = googlemaps.Client(key=key)
-		now = datetime.now()
-
-		for node in other_nodes:
-			edge_dict = {}
-			edge_dict['patient_id'] = node.patient_id
-
-			directions_result = gmaps.directions(self.full_address, node.full_address, mode="transit", departure_time=now)
-
-			edge_dict['time_to_destination'] = directions_result[]
+	return array
 
 
-
-
-
-
-
-
+print(get_distance('CSV/PATIENT_TASK_DATA.csv', 55))
