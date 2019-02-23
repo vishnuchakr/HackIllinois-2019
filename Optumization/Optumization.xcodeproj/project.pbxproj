@@ -15,6 +15,7 @@
 		A31C9DD02222068900E9747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DCE2222068900E9747C /* LaunchScreen.storyboard */; };
 		A31C9DDB2222068900E9747C /* OptumizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DDA2222068900E9747C /* OptumizationTests.swift */; };
 		A31C9DE62222068900E9747C /* OptumizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DE52222068900E9747C /* OptumizationUITests.swift */; };
+		F442C9CE4E324CD3F4808A76 /* libPods-Optumization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 441DDA9949F65268801DDD58 /* libPods-Optumization.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441DDA9949F65268801DDD58 /* libPods-Optumization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Optumization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.debug.xcconfig"; sourceTree = "<group>"; };
 		A31C9DBF2222068600E9747C /* Optumization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optumization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31C9DC22222068600E9747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A31C9DC42222068600E9747C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		A31C9DE12222068900E9747C /* OptumizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptumizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31C9DE52222068900E9747C /* OptumizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptumizationUITests.swift; sourceTree = "<group>"; };
 		A31C9DE72222068900E9747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB47C63F9CBD98B2C7A11596 /* Pods-Optumization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.release.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F442C9CE4E324CD3F4808A76 /* libPods-Optumization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0FE2A7347E1C0FAA55FB50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */,
+				BB47C63F9CBD98B2C7A11596 /* Pods-Optumization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87E492F94CE4860DD317389C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441DDA9949F65268801DDD58 /* libPods-Optumization.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A31C9DB62222068600E9747C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				A31C9DD92222068900E9747C /* OptumizationTests */,
 				A31C9DE42222068900E9747C /* OptumizationUITests */,
 				A31C9DC02222068600E9747C /* Products */,
+				7C0FE2A7347E1C0FAA55FB50 /* Pods */,
+				87E492F94CE4860DD317389C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31C9DEA2222068900E9747C /* Build configuration list for PBXNativeTarget "Optumization" */;
 			buildPhases = (
+				66618F7156B449A446658C0F /* [CP] Check Pods Manifest.lock */,
 				A31C9DBB2222068600E9747C /* Sources */,
 				A31C9DBC2222068600E9747C /* Frameworks */,
 				A31C9DBD2222068600E9747C /* Resources */,
+				B17D38E19D55D0A7357321D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +279,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66618F7156B449A446658C0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optumization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17D38E19D55D0A7357321D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A31C9DBB2222068600E9747C /* Sources */ = {
@@ -434,6 +499,7 @@
 		};
 		A31C9DEB2222068900E9747C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +518,7 @@
 		};
 		A31C9DEC2222068900E9747C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB47C63F9CBD98B2C7A11596 /* Pods-Optumization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
