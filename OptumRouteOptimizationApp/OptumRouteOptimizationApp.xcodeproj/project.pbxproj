@@ -16,7 +16,11 @@
 		0038EF512221E0FA007611A0 /* OptumRouteOptimizationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038EF502221E0FA007611A0 /* OptumRouteOptimizationAppUITests.swift */; };
 		009899562221F37100846592 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009899552221F37100846592 /* MapViewController.swift */; };
 		009899582221F37A00846592 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009899572221F37A00846592 /* DirectionsViewController.swift */; };
+<<<<<<< HEAD
 		A3B945732221F88900FD28AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B945722221F88900FD28AA /* Constants.swift */; };
+=======
+		0098995C2221F9D600846592 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995B2221F9D600846592 /* APIKEY.swift */; };
+>>>>>>> 7c56b0c3a064266e38faa9424c66f708f388ad90
 		D4400F58E953EDBCC3217311 /* libPods-OptumRouteOptimizationApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC75AB58E967C6FD3A78FD2 /* libPods-OptumRouteOptimizationApp.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,7 @@
 		0038EF522221E0FA007611A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009899552221F37100846592 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		009899572221F37A00846592 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		0098995B2221F9D600846592 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
 		3404CDB9B3651B257CAD59D4 /* Pods-OptumRouteOptimizationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptumRouteOptimizationApp.release.xcconfig"; path = "Target Support Files/Pods-OptumRouteOptimizationApp/Pods-OptumRouteOptimizationApp.release.xcconfig"; sourceTree = "<group>"; };
 		7078131C07BF12EB0B52DF92 /* Pods-OptumRouteOptimizationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptumRouteOptimizationApp.debug.xcconfig"; path = "Target Support Files/Pods-OptumRouteOptimizationApp/Pods-OptumRouteOptimizationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A3B945722221F88900FD28AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 		0038EF242221E0F8007611A0 = {
 			isa = PBXGroup;
 			children = (
+				0098995B2221F9D600846592 /* APIKEY.swift */,
 				0038EF2F2221E0F9007611A0 /* OptumRouteOptimizationApp */,
 				0038EF442221E0FA007611A0 /* OptumRouteOptimizationAppTests */,
 				0038EF4F2221E0FA007611A0 /* OptumRouteOptimizationAppUITests */,
@@ -340,6 +346,7 @@
 			files = (
 				A3B945732221F88900FD28AA /* Constants.swift in Sources */,
 				009899582221F37A00846592 /* DirectionsViewController.swift in Sources */,
+				0098995C2221F9D600846592 /* APIKEY.swift in Sources */,
 				0038EF332221E0F9007611A0 /* ViewController.swift in Sources */,
 				009899562221F37100846592 /* MapViewController.swift in Sources */,
 				0038EF312221E0F9007611A0 /* AppDelegate.swift in Sources */,
@@ -519,7 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6H8UJ784W2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = OptumRouteOptimizationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,7 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6H8UJ784W2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = OptumRouteOptimizationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
