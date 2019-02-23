@@ -1,0 +1,101 @@
+patient_id,first_name,last_name,street_address,phone_number,therapy_category,drug_name
+1,Ferdinanda,Artus,55773 Killdeer Place,111-158-8031,Therapy 2,
+2,Stormi,Lockart,51 Brickson Park Terrace,174-337-7179,Therapy 2,Lithium Carbonate
+3,Gerrilee,Bust,59 Buena Vista Plaza,508-855-2379,Therapy 3,
+4,Tamarah,Gawkes,44113 Helena Junction,187-175-7227,Therapy 2,
+5,Wally,Twycross,0536 Annamark Terrace,904-491-0167,Therapy 1,
+6,Roma,Arzu,57 Holy Cross Street,264-616-5416,Therapy 3,
+7,Akim,Torrisi,2414 Hintze Pass,529-615-4232,Therapy 2,
+8,Moreen,Cookson,84980 Farmco Street,388-950-1452,Therapy 1,
+9,Gerladina,Millwater,690 Westport Pass,646-125-6322,Therapy 1,Alcohol
+10,Larry,Elmar,80193 Londonderry Plaza,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate
+11,Desmund,Comiskey,65 Petterle Court,749-256-4123,Therapy 3,
+12,Marie,Van Arsdalen,16835 Aberg Trail,738-441-5811,Therapy 3,
+13,Giacobo,Kirstein,7 Butternut Avenue,748-659-9510,Therapy 2,
+14,Ilse,Caldero,81186 Novick Way,447-872-7070,Therapy 2,
+15,Fifi,Fellgate,843 Troy Crossing,938-955-6818,Therapy 2,
+16,Megen,Sollett,97 Mifflin Street,951-564-8839,Therapy 1,
+17,Gothart,Mulliss,75 Vernon Alley,551-891-4945,Therapy 1,
+18,Northrop,Finey,02 Browning Place,777-789-8578,Therapy 2,
+19,Mart,Standfield,45241 Leroy Alley,402-665-8308,Therapy 1,
+20,Kliment,D'Orsay,1 Briar Crest Trail,665-204-8829,Therapy 3,
+21,Dinnie,Babbe,22 Vermont Point,,Therapy 1,
+22,Gaspard,Amery,6 Service Road,763-139-7291,Therapy 2,Duloxetine
+23,Torrey,Leyden,9 Dryden Drive,607-446-5925,Therapy 3,
+24,Rinaldo,Attkins,17933 Kings Street,129-178-2782,Therapy 1,"Belladonna, Bryonia, Capsicum annuum, Chininum arsenicosum, Coffea cruda, Gelsemium sempervirens, Glonoinum, Ignatia amara, Kali bichromicum, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Sanguinaria canadensis, Spigelia anthelmia, Sulphur."
+25,Temp,Vanlint,9 Thompson Alley,137-734-2553,Therapy 3,
+26,Falkner,Pritchett,7591 Vermont Street,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF
+27,Ulysses,Yakunkin,691 Nelson Center,503-223-0203,Therapy 2,
+28,Jae,Stranger,6138 Loeprich Park,145-966-0358,Therapy 1,Menthol 1%
+29,Beltran,Cape,2 Fairfield Drive,628-101-7915,Therapy 1,Standardized Mite D. farinae
+30,Karisa,Wyman,9663 Shelley Pass,519-826-7132,Therapy 3,
+31,Clovis,MacLardie,22367 Oriole Junction,163-852-3731,Therapy 2,
+32,Latrena,Zambonini,355 Mccormick Circle,922-388-6538,Therapy 2,
+33,Ado,Diss,558 Lakeland Lane,474-486-0650,Therapy 2,
+34,Suzi,Croft,7771 Pawling Plaza,300-722-8665,Therapy 1,
+35,Charline,Igglesden,92 Emmet Pass,,Therapy 3,
+36,Sylas,Engall,59 Dixon Terrace,905-973-3864,Therapy 3,
+37,Adelind,Dowe,7945 Carpenter Road,587-443-9416,Therapy 3,
+38,Karyn,Salliere,9 High Crossing Road,129-769-4427,Therapy 2,
+39,Petrina,Sorrill,8 Fairfield Crossing,330-160-0815,Therapy 3,leuprolide acetate
+40,Carlyn,Weatherley,5986 Moose Road,898-490-0470,Therapy 3,
+41,Paten,Thurlow,31983 Mesta Lane,,Therapy 1,Pantoprazole Sodium
+42,Sibby,Tunnacliffe,60 Crownhardt Place,888-240-2998,Therapy 2,
+43,Nealson,Fearnsides,81726 Caliangt Park,596-718-1028,Therapy 2,
+44,Mallorie,Amps,03 Iowa Hill,482-141-0924,Therapy 3,
+45,Katinka,Lago,910 Artisan Street,150-564-3604,Therapy 3,Cefprozil
+46,Denis,Whitney,16993 Raven Lane,804-683-8430,Therapy 1,
+47,Mitchel,Erlam,0835 Glacier Hill Junction,,Therapy 2,
+48,Erin,Rosell,3127 Fisk Lane,957-250-6468,Therapy 2,
+49,Rodrique,Treend,546 Hayes Circle,263-948-5297,Therapy 2,
+50,Yvon,Speers,92001 Westridge Point,170-677-2795,Therapy 2,
+51,Gustaf,Janiszewski,118 Clarendon Place,108-465-6041,Therapy 2,
+52,Millie,Lorenzo,78541 Ryan Place,849-907-9262,Therapy 2,
+53,Marco,Weldrake,749 Pankratz Terrace,517-483-0440,Therapy 2,
+54,Osborne,Dowey,392 Melby Crossing,866-296-4053,Therapy 1,
+55,Ahmed,Nutman,31 Jenna Drive,185-918-1178,Therapy 3,
+56,Jocelyne,Glasscoe,565 Ridgeview Place,932-202-8085,Therapy 3,
+57,Melina,Halegarth,810 Walton Terrace,281-573-3189,Therapy 2,"atropa belladonna, euphrasia stricta and mercuric chloride"
+58,Gabriela,Nials,9 International Road,633-110-5811,Therapy 1,Benzocaine
+59,Cort,Loreit,3310 Toban Terrace,528-947-9472,Therapy 3,
+60,Hillary,Joscelyne,3 Starling Point,487-786-9050,Therapy 1,
+61,Gloriana,Sinkings,1 Shoshone Junction,243-308-4984,Therapy 2,TITANIUM DIOXIDE
+62,Tani,Leftbridge,023 Burrows Alley,270-962-1063,Therapy 2,"Camphor, Menthol, Methyl Salicylate"
+63,Germain,Joanic,05238 Packers Trail,557-139-4078,Therapy 3,
+64,Adrianna,Bryson,2408 Kinsman Alley,814-173-5204,Therapy 3,Nicotine Polacrilex
+65,Bealle,Del Monte,4 Mariners Cove Avenue,537-243-9783,Therapy 2,
+66,Kathryne,Lowey,42131 Lerdahl Way,423-520-4694,Therapy 1,
+67,Agnella,Purvis,24 Center Way,278-290-9861,Therapy 2,
+68,Betteann,Nettleship,027 Little Fleur Way,695-599-3456,Therapy 2,Povidone Iodine
+69,Colly,Havis,051 Magdeline Alley,174-936-3677,Therapy 2,
+70,Hyacintha,Ruos,60584 Fordem Crossing,350-134-2223,Therapy 2,HUMAN IMMUNOGLOBULIN G
+71,Adriano,Kelcey,08 Warner Point,391-156-6266,Therapy 2,
+72,Davidde,Kusick,27703 Maple Trail,718-580-5739,Therapy 3,
+73,Jenda,Hardingham,34526 Main Center,326-398-9155,Therapy 3,tazarotene
+74,Dory,Hember,15 Hermina Trail,,Therapy 2,
+75,Van,Fairn,26896 Vermont Way,953-728-0106,Therapy 2,
+76,Skye,Dukelow,0895 Bunker Hill Lane,259-938-8488,Therapy 3,
+77,Cassandry,Emilien,347 Prairieview Point,513-653-4424,Therapy 2,
+78,Mari,Danielli,6876 Sunnyside Way,168-354-7538,Therapy 1,
+79,Tommie,Beckensall,8 Porter Junction,939-270-7676,Therapy 2,
+80,Percy,Bann,28460 Southridge Terrace,829-400-8893,Therapy 3,
+81,Drake,O'Rodane,38979 Meadow Ridge Trail,135-280-0690,Therapy 3,
+82,Harbert,Kalkhoven,46 Sutteridge Street,528-312-4790,Therapy 1,
+83,Jenny,Gadie,0 Warner Junction,661-477-6832,Therapy 3,Methocarbamol
+84,Lonnie,Natalie,8594 Dorton Trail,896-812-5665,Therapy 2,
+85,Gladys,Crich,5828 Hazelcrest Junction,334-490-4451,Therapy 1,
+86,Laureen,Hazlewood,4 Emmet Point,552-758-5189,Therapy 2,
+87,Josy,Langrick,1837 Lakewood Gardens Road,439-716-7225,Therapy 3,
+88,Gris,Tomini,64 4th Avenue,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA
+89,Elianore,Fitton,1308 Sunnyside Trail,506-645-5059,Therapy 1,
+90,Nelia,Rahl,38721 Norway Maple Park,858-557-1138,Therapy 2,
+91,Cecil,Kalisch,5 Saint Paul Road,401-378-8253,Therapy 2,
+92,Nicolais,Waplington,08 Dennis Circle,734-563-6085,Therapy 1,
+93,Jesus,Leachman,43551 Golf Course Drive,810-942-6261,Therapy 1,
+94,Christian,Grimble,01257 Sherman Junction,449-539-5605,Therapy 1,
+95,Elenore,Sculpher,2 Del Sol Lane,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride
+96,Trixy,Petren,7534 Briar Crest Center,602-385-0765,Therapy 3,losartan potassium
+97,Merry,Hawney,1829 Homewood Hill,669-308-4882,Therapy 1,
+98,Camey,Biasio,272 Cordelia Alley,332-869-6562,Therapy 2,
+99,Dorthy,Yewdall,798 Becker Point,370-287-1660,Therapy 3,
+100,Ezechiel,Ridge,177 Schlimgen Circle,903-432-5968,Therapy 3,
