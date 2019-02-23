@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0098995E2222099200846592 /* DailyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995D2222099200846592 /* DailyMapViewController.swift */; };
+		00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995F222209B400846592 /* CurrentPatientViewController.swift */; };
 		A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC22222068600E9747C /* AppDelegate.swift */; };
 		A31C9DC52222068600E9747C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC42222068600E9747C /* ViewController.swift */; };
 		A31C9DC82222068600E9747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DC62222068600E9747C /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0098995D2222099200846592 /* DailyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMapViewController.swift; sourceTree = "<group>"; };
+		0098995F222209B400846592 /* CurrentPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPatientViewController.swift; sourceTree = "<group>"; };
 		441DDA9949F65268801DDD58 /* libPods-Optumization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Optumization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.debug.xcconfig"; sourceTree = "<group>"; };
 		A31C9DBF2222068600E9747C /* Optumization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optumization.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +134,8 @@
 				A31C9DCE2222068900E9747C /* LaunchScreen.storyboard */,
 				A31C9DD12222068900E9747C /* Info.plist */,
 				A31C9DC92222068600E9747C /* Optumization.xcdatamodeld */,
+				0098995D2222099200846592 /* DailyMapViewController.swift */,
+				0098995F222209B400846592 /* CurrentPatientViewController.swift */,
 			);
 			path = Optumization;
 			sourceTree = "<group>";
@@ -305,7 +311,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -314,7 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,8 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31C9DC52222068600E9747C /* ViewController.swift in Sources */,
+				00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */,
 				A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */,
 				A31C9DCB2222068600E9747C /* Optumization.xcdatamodeld in Sources */,
+				0098995E2222099200846592 /* DailyMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6H8UJ784W2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = Optumization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HackIllinois.Optumization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -522,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6H8UJ784W2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = Optumization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HackIllinois.Optumization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
