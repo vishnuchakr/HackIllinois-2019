@@ -13,9 +13,9 @@ patient_id,first_name,last_name,street_address,phone_number,therapy_category,dru
 12,Marie,Van Arsdalen,4200 W Springfield Ave,738-441-5811,Therapy 3,,Champaign,IL
 13,Giacobo,Kirstein,505 S Dunlap Ave,748-659-9510,Therapy 2,,Savoy,IL
 14,Ilse,Caldero,2409 Village Green Pl,447-872-7070,Therapy 2,,Champaign,IL
-15,Fifi,Fellgate,306 S Market St,938-955-6818,Therapy 2,,Monticello,
-16,Megen,Sollett,1005 E Southline Rd,951-564-8839,Therapy 1,,Tuscola,
-17,Gothart,Mulliss,711 W Champaign Ave,551-891-4945,Therapy 1,,Rantoul,
+15,Fifi,Fellgate,306 S Market St,938-955-6818,Therapy 2,,Monticello,IL
+16,Megen,Sollett,1005 E Southline Rd,951-564-8839,Therapy 1,,Tuscola,IL
+17,Gothart,Mulliss,711 W Champaign Ave,551-891-4945,Therapy 1,,Rantoul,IL
 18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL
 19,Mart,Standfield,1705 S Philo Rd,402-665-8308,Therapy 1,,Urbana ,IL
 20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL
@@ -25,3 +25,77 @@ patient_id,first_name,last_name,street_address,phone_number,therapy_category,dru
 24,Rinaldo,Attkins,404 W University Ave,129-178-2782,Therapy 1,"Belladonna, Bryonia, Capsicum annuum, Chininum arsenicosum, Coffea cruda, Gelsemium sempervirens, Glonoinum, Ignatia amara, Kali bichromicum, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Sanguinaria canadensis, Spigelia anthelmia, Sulphur.",Urbana ,IL
 25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL
 26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL
+27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL
+28,Jae,Stranger,324 Bolman Court,145-966-0358,Therapy 1,Menthol 1%,Champaign,IL
+29,Beltran,Cape,2378 Little Acres Lane,628-101-7915,Therapy 1,Standardized Mite D. farinae,Champaign,IL
+30,Karisa,Wyman,1253 Scenic Way,519-826-7132,Therapy 3,,Champaign,IL
+31,Clovis,MacLardie,282 Spring Street,163-852-3731,Therapy 2,,Champaign,IL
+32,Latrena,Zambonini,3089 University Hill Road,922-388-6538,Therapy 2,,Champaign,IL
+33,Ado,Diss,4794 Scenic Way,474-486-0650,Therapy 2,,Champaign,IL
+34,Suzi,Croft,4255 University Hill Road,300-722-8665,Therapy 1,,Champaign,IL
+35,Charline,Igglesden,3933 Little Acres Lane,,Therapy 3,,Champaign,IL
+36,Sylas,Engall,3148 Bolman Court,905-973-3864,Therapy 3,,Champaign,IL
+37,Adelind,Dowe,1662 University Hill Road,587-443-9416,Therapy 3,,Champaign,IL
+38,Karyn,Salliere,2120 University Hill Road,129-769-4427,Therapy 2,,Champaign,IL
+39,Petrina,Sorrill,4984 Scenic Way,330-160-0815,Therapy 3,leuprolide acetate,Champaign,IL
+40,Carlyn,Weatherley,1583 Bolman Court,898-490-0470,Therapy 3,,Champaign,IL
+41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL
+42,Sibby,Tunnacliffe,4265 Scenic Way,888-240-2998,Therapy 2,,Champaign,IL
+43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL
+44,Mallorie,Amps,3494 Cardinal Lane,482-141-0924,Therapy 3,,Champaign,IL
+45,Katinka,Lago,2588 Cardinal Lane,150-564-3604,Therapy 3,Cefprozil,Champaign,IL
+46,Denis,Whitney,3020 Isaacs Creek Road,804-683-8430,Therapy 1,,Champaign,IL
+47,Mitchel,Erlam,3636 Spring Street,,Therapy 2,,Champaign,IL
+48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL
+49,Rodrique,Treend,224 Scenic Way,263-948-5297,Therapy 2,,Champaign,IL
+50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL
+51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL
+52,Millie,Lorenzo,201 W Vermont AVE,849-907-9262,Therapy 2,,Urbana ,IL
+53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL
+54,Osborne,Dowey,1309 E Fairlawn DR,866-296-4053,Therapy 1,,Urbana ,IL
+55,Ahmed,Nutman,305 S Dodson DR,185-918-1178,Therapy 3,,Urbana ,IL
+56,Jocelyne,Glasscoe,1948 Jefferson DR,932-202-8085,Therapy 3,,Urbana ,IL
+57,Melina,Halegarth,408 Pond Ridge LN,281-573-3189,Therapy 2,"atropa belladonna, euphrasia stricta and mercuric chloride",Urbana ,IL
+58,Gabriela,Nials,2502 Fairfield DR,633-110-5811,Therapy 1,Benzocaine,Urbana ,IL
+59,Cort,Loreit,901 W Illinois ST,528-947-9472,Therapy 3,,Urbana ,IL
+60,Hillary,Joscelyne,2412 E Florida AVE,487-786-9050,Therapy 1,,Urbana ,IL
+61,Gloriana,Sinkings,708 S Goodwin AVE,243-308-4984,Therapy 2,TITANIUM DIOXIDE,Urbana ,IL
+62,Tani,Leftbridge,2203 E Pennsylvania AVE,270-962-1063,Therapy 2,"Camphor, Menthol, Methyl Salicylate",Urbana ,IL
+63,Germain,Joanic,822 E Oakland AVE #102,557-139-4078,Therapy 3,,Urbana ,IL
+64,Adrianna,Bryson,2106 E Main ST,814-173-5204,Therapy 3,Nicotine Polacrilex,Urbana ,IL
+65,Bealle,Del Monte,810 W Green ST,537-243-9783,Therapy 2,,Urbana ,IL
+66,Kathryne,Lowey,1304 Ellis DR,423-520-4694,Therapy 1,,Urbana ,IL
+67,Agnella,Purvis,157 George ST,278-290-9861,Therapy 2,,Urbana ,IL
+68,Betteann,Nettleship,201 N Goodwin AVE,695-599-3456,Therapy 2,Povidone Iodine,Urbana ,IL
+69,Colly,Havis,2202 S Cottage Grove AVE,174-936-3677,Therapy 2,,Urbana ,IL
+70,Hyacintha,Ruos,2509 Combes ST,350-134-2223,Therapy 2,HUMAN IMMUNOGLOBULIN G,Urbana ,IL
+71,Adriano,Kelcey,904 E Shurts ST,391-156-6266,Therapy 2,,Urbana ,IL
+72,Davidde,Kusick,2106 Burlison DR,718-580-5739,Therapy 3,,Urbana ,IL
+73,Jenda,Hardingham,305 Burwash DR,326-398-9155,Therapy 3,tazarotene,Savoy,IL
+74,Dory,Hember,109 W Tomaras AVE #APT C,,Therapy 2,,Savoy,IL
+75,Van,Fairn,300 Paddock DR W,953-728-0106,Therapy 2,,Savoy,IL
+76,Skye,Dukelow,301 Curtis RD #APT 6-105,259-938-8488,Therapy 3,,Savoy,IL
+77,Cassandry,Emilien,179 Paddock DR W,513-653-4424,Therapy 2,,Savoy,IL
+78,Mari,Danielli,1801 Woodfield DR,168-354-7538,Therapy 1,,Savoy,IL
+79,Tommie,Beckensall,1013 Declaration DR,939-270-7676,Therapy 2,,Savoy,IL
+80,Percy,Bann,100 Parkview LN #134,829-400-8893,Therapy 3,,Savoy,IL
+81,Drake,O'Rodane,1013 Declaration DR,135-280-0690,Therapy 3,,Savoy,IL
+82,Harbert,Kalkhoven,710 Silver Lake CT,528-312-4790,Therapy 1,,Savoy,IL
+83,Jenny,Gadie,502 Dropseed DR,661-477-6832,Therapy 3,Methocarbamol,Savoy,IL
+84,Lonnie,Natalie,185 Paddock DR E,896-812-5665,Therapy 2,,Savoy,IL
+85,Gladys,Crich,506 Wesley AVE,334-490-4451,Therapy 1,,Savoy,IL
+86,Laureen,Hazlewood,103 Portsmouth LN #5,552-758-5189,Therapy 2,,Savoy,IL
+87,Josy,Langrick,113 Gentian ST,439-716-7225,Therapy 3,,Savoy,IL
+88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL
+89,Elianore,Fitton,606 Indigo DR,506-645-5059,Therapy 1,,Savoy,IL
+90,Nelia,Rahl,302 Burwash AVE,858-557-1138,Therapy 2,,Savoy,IL
+91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL
+92,Nicolais,Waplington,905 Meadow View CT,734-563-6085,Therapy 1,,Savoy,IL
+93,Jesus,Leachman,103 S Dunlap AVE,810-942-6261,Therapy 1,,Savoy,IL
+94,Christian,Grimble,704 Wesley AVE,449-539-5605,Therapy 1,,Savoy,IL
+95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL
+96,Trixy,Petren,1401 Quail Run DR,602-385-0765,Therapy 3,losartan potassium,Savoy,IL
+97,Merry,Hawney,8 Magnolia CT,669-308-4882,Therapy 1,,Savoy,IL
+98,Camey,Biasio,1617 Lyndhurst DR,332-869-6562,Therapy 2,,Savoy,IL
+99,Dorthy,Yewdall,302 Burwash AVE,370-287-1660,Therapy 3,,Savoy,IL
+100,Ezechiel,Ridge,204 Misty CV,903-432-5968,Therapy 3,,Savoy,IL

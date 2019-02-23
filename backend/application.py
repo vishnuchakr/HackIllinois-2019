@@ -9,8 +9,8 @@ application = Flask(__name__)
 def hello_world():
     return "baseURL"
 
-@application.route('/getMapData/<nurseType>')
-def getPath(nurseType):
+@application.route('/getMapData/<employeeID>')
+def getPath(employeeID):
     return jsonify({"passed": nurseType})
 
 
@@ -21,4 +21,4 @@ The debugger is enabled
 '''
 if __name__ == "__main__":
     application.debug = True
-    application.run()
+    application.run(host='0.0.0.0', port=3000)

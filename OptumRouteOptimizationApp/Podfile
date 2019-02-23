@@ -1,3 +1,0 @@
-target 'OptumRouteOptimizationApp' do
-  pod 'GoogleMaps'
-end
