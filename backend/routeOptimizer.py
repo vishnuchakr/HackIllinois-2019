@@ -31,4 +31,4 @@ def get_distance_matrix(filename, employee_id):
 	return array
 
 
-print(get_distance('CSV/PATIENT_TASK_DATA.csv', 55))
+print(get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 55))
