@@ -16,6 +16,7 @@
 		0038EF512221E0FA007611A0 /* OptumRouteOptimizationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038EF502221E0FA007611A0 /* OptumRouteOptimizationAppUITests.swift */; };
 		009899562221F37100846592 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009899552221F37100846592 /* MapViewController.swift */; };
 		009899582221F37A00846592 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009899572221F37A00846592 /* DirectionsViewController.swift */; };
+		0098995A2221F7AA00846592 /* API_KEY in Resources */ = {isa = PBXBuildFile; fileRef = 009899592221F7AA00846592 /* API_KEY */; };
 		D4400F58E953EDBCC3217311 /* libPods-OptumRouteOptimizationApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC75AB58E967C6FD3A78FD2 /* libPods-OptumRouteOptimizationApp.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		0038EF522221E0FA007611A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009899552221F37100846592 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		009899572221F37A00846592 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		009899592221F7AA00846592 /* API_KEY */ = {isa = PBXFileReference; lastKnownFileType = text; path = API_KEY; sourceTree = "<group>"; };
 		3404CDB9B3651B257CAD59D4 /* Pods-OptumRouteOptimizationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptumRouteOptimizationApp.release.xcconfig"; path = "Target Support Files/Pods-OptumRouteOptimizationApp/Pods-OptumRouteOptimizationApp.release.xcconfig"; sourceTree = "<group>"; };
 		7078131C07BF12EB0B52DF92 /* Pods-OptumRouteOptimizationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptumRouteOptimizationApp.debug.xcconfig"; path = "Target Support Files/Pods-OptumRouteOptimizationApp/Pods-OptumRouteOptimizationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC75AB58E967C6FD3A78FD2 /* libPods-OptumRouteOptimizationApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OptumRouteOptimizationApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 		0038EF242221E0F8007611A0 = {
 			isa = PBXGroup;
 			children = (
+				009899592221F7AA00846592 /* API_KEY */,
 				0038EF2F2221E0F9007611A0 /* OptumRouteOptimizationApp */,
 				0038EF442221E0FA007611A0 /* OptumRouteOptimizationAppTests */,
 				0038EF4F2221E0FA007611A0 /* OptumRouteOptimizationAppUITests */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0038EF3B2221E0FA007611A0 /* LaunchScreen.storyboard in Resources */,
+				0098995A2221F7AA00846592 /* API_KEY in Resources */,
 				0038EF382221E0FA007611A0 /* Assets.xcassets in Resources */,
 				0038EF362221E0F9007611A0 /* Main.storyboard in Resources */,
 			);
