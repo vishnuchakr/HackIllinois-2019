@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var employeeID = 0
+    
+    // MARK: Outlets
+    @IBOutlet weak var employeeIDTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +24,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func Login(_ sender: Any) {
+        employeeID = Int(employeeIDTextField.text!) ?? 0
         performSegue(withIdentifier: "OpenDailyMap", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "OpenDailyMap") {
+            let nextVC: MapScreen = segue.destination as! MapScreen
+            nextVC.employeeId = self.employeeID
+        }
     }
     
 }

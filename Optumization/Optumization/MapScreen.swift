@@ -12,6 +12,8 @@ import CoreLocation
 
 class MapScreen: UIViewController {
     
+    var employeeId = 0
+    
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
