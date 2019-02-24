@@ -1,5 +1,6 @@
 from flask import jsonify
 from flask import Flask, request, url_for
+import tsp
 
 application = Flask(__name__)
 
@@ -11,7 +12,9 @@ def hello_world():
 
 @application.route('/getMapData/<employeeID>')
 def getPath(employeeID):
-    return jsonify({"passed": nurseType})
+    pathDict = tsp.optimal_route(int(employeeID))
+    print(pathDict)
+    return jsonify(pathDict)
 
 
 
