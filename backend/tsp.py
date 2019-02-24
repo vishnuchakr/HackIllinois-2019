@@ -70,23 +70,25 @@ def optimal_route(employee_id):
             # Only one route here; otherwise iterate from 0 to routing.vehicles() - 1
             route_number = 0
             index = routing.Start(route_number) # Index of the variable for the starting node.
-            route = ''
+            route = []
 
             print(type(patient_df))
 
             while not routing.IsEnd(index):
                 # Convert variable indices to node indices in the displayed route.
-                route += str(addresses[routing.IndexToNode(index)]) + ' -> '
+                route.append({list(patient_df['last_name'])[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
                 index = assignment.Value(routing.NextVar(index))
-            route += str(addresses[routing.IndexToNode(index)])
-            print("Route:\n\n" + route)
+            route.append({list(patient_df['last_name'])[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
+            # print("Route:\n\n" + route)
         else:
             print('No solution found.')
 
     else:
         print('Specify an instance greater than 0.')
+
+    return route
     
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
 
-optimal_route(55)
+print(optimal_route(55))
