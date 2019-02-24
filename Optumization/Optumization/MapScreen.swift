@@ -24,6 +24,8 @@ class customPin: NSObject, MKAnnotation {
 
 class MapScreen: UIViewController, MKMapViewDelegate {
     
+    var employeeId = 0
+    
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
