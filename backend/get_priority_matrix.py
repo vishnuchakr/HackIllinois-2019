@@ -6,10 +6,16 @@ import numpy as np
 def get_priority_matrix(filename, employee_id):
     patient_df = pd.read_csv(filename)
     patient_df = patient_df[patient_df['employee_id'] == employee_id]
+    patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+    patient_df = patient_df.dropna(subset=['full_address'])
+
+    employee_df = pd.read_csv('CSV/EMPLOYEE_DATA.csv')
+    employee_df = employee_df[employee_df['employee_id'] == employee_id]
 
     patient_df['priority_value'] = patient_df['prioirty_level'].apply(get_priority_value)
-    patient_matrix = np.matrix(patient_df['priority_value'])
-    
+    patient_matrix = [.3] + list(patient_df['priority_value'])
+    patient_matrix = np.matrix(patient_matrix)
+
     priority_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
     return priority_matrix
 
@@ -24,4 +30,3 @@ def get_priority_value(str):
     elif str == 'High':
         return .3
 
-print(get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', 55))
