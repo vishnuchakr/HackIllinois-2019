@@ -44,8 +44,8 @@ class MapScreen: UIViewController, MKMapViewDelegate {
     func createPathBetweenTwoPoints(sourceLocation: CLLocationCoordinate2D, destinationLocation: CLLocationCoordinate2D, sourceLocationName: String, destinationLocationName: String) {
         
         
-        let sourcePin = customPin(pinTitle: sourceLocationName, pinSubTitle: "", location: sourceLocation)
-        let destinationPin = customPin(pinTitle: destinationLocationName, pinSubTitle: "", location: destinationLocation)
+        let sourcePin = customPin(pinTitle: sourceLocationName, pinSubTitle: sourceLocationName, location: sourceLocation)
+        let destinationPin = customPin(pinTitle: destinationLocationName, pinSubTitle: destinationLocationName, location: destinationLocation)
         self.mapView.addAnnotation(sourcePin)
         self.mapView.addAnnotation(destinationPin)
         
@@ -91,6 +91,7 @@ class MapScreen: UIViewController, MKMapViewDelegate {
                 }
                 
                 json
+                var sourceLocationName = "Current Location"
                 for song in jsonResponse {
                     
                     var retLocation:CLLocationCoordinate2D!
@@ -114,8 +115,10 @@ class MapScreen: UIViewController, MKMapViewDelegate {
                         
                         
                         
-                        self.createPathBetweenTwoPoints(sourceLocation: self.sourceLocation, destinationLocation: retLocation, sourceLocationName: song.keys.first!, destinationLocationName: "")
+                        self.createPathBetweenTwoPoints(sourceLocation: self.sourceLocation, destinationLocation: retLocation, sourceLocationName: ("\(sourceLocationName)"), destinationLocationName: "\(song.keys.first!)")
+//                        count = count + 1
                         self.sourceLocation = retLocation
+                        sourceLocationName = song.keys.first!
                         
                         // Use your location
                     }
