@@ -1,42 +1,1020 @@
 ,patient_id,first_name,last_name,street_address,phone_number,therapy_category,drug_name,city,state,task_id,task_type,employee_id,due_date,prioirty_level
-0,1,Ferdinanda,Artus,802 W University Ave,111-158-8031,Therapy 2,,Urbana ,IL,317,Task Type 2,9,3/14/18,Medium
-1,2,Stormi,Lockart,610 E Daniel St,174-337-7179,Therapy 2,Lithium Carbonate,Champaign,IL,798,Task Type 3,96,3/11/18,Low
-2,2,Stormi,Lockart,610 E Daniel St,174-337-7179,Therapy 2,Lithium Carbonate,Champaign,IL,816,Task Type 1,23,3/12/18,Medium
+0,1,Ferdinanda,Artus,802 W University Ave,111-158-8031,Therapy 2,,Urbana ,IL,317.0,Task Type 2,9.0,3/14/2018,Medium
+1,2,Stormi,Lockart,610 E Daniel St,174-337-7179,Therapy 2,Lithium Carbonate,Champaign,IL,798.0,Task Type 3,96.0,3/11/2018,Low
+2,2,Stormi,Lockart,610 E Daniel St,174-337-7179,Therapy 2,Lithium Carbonate,Champaign,IL,816.0,Task Type 1,23.0,3/12/2018,Medium
 3,3,Gerrilee,Bust,616 E Green St,508-855-2379,Therapy 3,,Champaign,IL,,,,,
-4,4,Tamarah,Gawkes,45 E University Ave,187-175-7227,Therapy 2,,Champaign,IL,473,Task Type 3,97,3/14/18,Medium
+4,4,Tamarah,Gawkes,45 E University Ave,187-175-7227,Therapy 2,,Champaign,IL,473.0,Task Type 3,97.0,3/14/2018,Medium
 5,5,Wally,Twycross,1401 S Neil St,904-491-0167,Therapy 1,,Champaign,IL,,,,,
-6,6,Roma,Arzu,706 W Marketview Dr,264-616-5416,Therapy 3,,Champaign,IL,91,Task Type 2,69,3/14/18,Low
-7,6,Roma,Arzu,706 W Marketview Dr,264-616-5416,Therapy 3,,Champaign,IL,310,Task Type 1,20,3/14/18,Medium
+6,6,Roma,Arzu,706 W Marketview Dr,264-616-5416,Therapy 3,,Champaign,IL,91.0,Task Type 2,69.0,3/14/2018,Low
+7,6,Roma,Arzu,706 W Marketview Dr,264-616-5416,Therapy 3,,Champaign,IL,310.0,Task Type 1,20.0,3/14/2018,Medium
 8,7,Akim,Torrisi,2740 S Philo Rd,529-615-4232,Therapy 2,,Urbana ,IL,,,,,
 9,8,Moreen,Cookson,2610 N Prospect Ave,388-950-1452,Therapy 1,,Champaign,IL,,,,,
-10,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,88,Task Type 2,78,3/14/18,High
-11,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,337,Task Type 2,17,3/11/18,Low
-12,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,454,Task Type 3,14,3/14/18,Medium
-13,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,430,Task Type 1,68,3/13/18,Medium
-14,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,499,Task Type 3,41,3/11/18,Low
-15,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,586,Task Type 2,71,3/11/18,High
-16,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,33,Task Type 3,100,3/13/18,High
-17,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,666,Task Type 3,96,3/11/18,Medium
-18,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,929,Task Type 2,75,3/13/18,Medium
-19,12,Marie,Van Arsdalen,4200 W Springfield Ave,738-441-5811,Therapy 3,,Champaign,IL,103,Task Type 2,55,3/11/18,Low
-20,13,Giacobo,Kirstein,505 S Dunlap Ave,748-659-9510,Therapy 2,,Savoy,IL,950,Task Type 3,51,3/14/18,Low
-21,14,Ilse,Caldero,2409 Village Green Pl,447-872-7070,Therapy 2,,Champaign,IL,583,Task Type 1,78,3/14/18,Medium
-22,15,Fifi,Fellgate,306 S Market St,938-955-6818,Therapy 2,,Monticello,,115,Task Type 3,10,3/12/18,Low
-23,16,Megen,Sollett,1005 E Southline Rd,951-564-8839,Therapy 1,,Tuscola,,434,Task Type 3,9,3/12/18,High
-24,17,Gothart,Mulliss,711 W Champaign Ave,551-891-4945,Therapy 1,,Rantoul,,,,,,
-25,18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL,167,Task Type 2,61,3/14/18,Low
-26,18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL,292,Task Type 2,74,3/14/18,High
-27,19,Mart,Standfield,1705 S Philo Rd,402-665-8308,Therapy 1,,Urbana ,IL,783,Task Type 1,52,3/12/18,High
-28,20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL,441,Task Type 2,73,3/14/18,High
-29,20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL,752,Task Type 3,79,3/13/18,Low
-30,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,13,Task Type 3,62,3/13/18,High
-31,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,472,Task Type 1,60,3/11/18,Medium
-32,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,787,Task Type 3,9,3/11/18,Medium
-33,22,Gaspard,Amery,1302 N Prospect Ave,763-139-7291,Therapy 2,Duloxetine,Champaign,IL,898,Task Type 3,49,3/14/18,Medium
+10,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,88.0,Task Type 2,78.0,3/14/2018,High
+11,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,337.0,Task Type 2,17.0,3/11/2018,Low
+12,9,Gerladina,Millwater,1101 N Mattis Ave,646-125-6322,Therapy 1,Alcohol,Champaign,IL,454.0,Task Type 3,14.0,3/14/2018,Medium
+13,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,430.0,Task Type 1,68.0,3/13/2018,Medium
+14,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,499.0,Task Type 3,41.0,3/11/2018,Low
+15,10,Larry,Elmar,1319 N Dunlap Ave,868-977-1738,Therapy 3,Dorzolamide HCl /Timolol Maleate,Savoy,IL,586.0,Task Type 2,71.0,3/11/2018,High
+16,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,33.0,Task Type 3,100.0,3/13/2018,High
+17,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,666.0,Task Type 3,96.0,3/11/2018,Medium
+18,11,Desmund,Comiskey,100 S High Cross Rd,749-256-4123,Therapy 3,,Urbana ,IL,929.0,Task Type 2,75.0,3/13/2018,Medium
+19,12,Marie,Van Arsdalen,4200 W Springfield Ave,738-441-5811,Therapy 3,,Champaign,IL,103.0,Task Type 2,55.0,3/11/2018,Low
+20,13,Giacobo,Kirstein,505 S Dunlap Ave,748-659-9510,Therapy 2,,Savoy,IL,950.0,Task Type 3,51.0,3/14/2018,Low
+21,14,Ilse,Caldero,2409 Village Green Pl,447-872-7070,Therapy 2,,Champaign,IL,583.0,Task Type 1,78.0,3/14/2018,Medium
+22,15,Fifi,Fellgate,306 S Market St,938-955-6818,Therapy 2,,Monticello,IL,115.0,Task Type 3,10.0,3/12/2018,Low
+23,16,Megen,Sollett,1005 E Southline Rd,951-564-8839,Therapy 1,,Tuscola,IL,434.0,Task Type 3,9.0,3/12/2018,High
+24,17,Gothart,Mulliss,711 W Champaign Ave,551-891-4945,Therapy 1,,Rantoul,IL,,,,,
+25,18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL,167.0,Task Type 2,61.0,3/14/2018,Low
+26,18,Northrop,Finey,4910 N Market St,777-789-8578,Therapy 2,,Champaign,IL,292.0,Task Type 2,74.0,3/14/2018,High
+27,19,Mart,Standfield,1705 S Philo Rd,402-665-8308,Therapy 1,,Urbana ,IL,783.0,Task Type 1,52.0,3/12/2018,High
+28,20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL,441.0,Task Type 2,73.0,3/14/2018,High
+29,20,Kliment,D'Orsay,2102 N Prospect Ave,665-204-8829,Therapy 3,,Champaign,IL,752.0,Task Type 3,79.0,3/13/2018,Low
+30,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,13.0,Task Type 3,62.0,3/13/2018,High
+31,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,472.0,Task Type 1,60.0,3/11/2018,Medium
+32,21,Dinnie,Babbe,102 N Vine St,,Therapy 1,,Urbana ,IL,787.0,Task Type 3,9.0,3/11/2018,Medium
+33,22,Gaspard,Amery,1302 N Prospect Ave,763-139-7291,Therapy 2,Duloxetine,Champaign,IL,898.0,Task Type 3,49.0,3/14/2018,Medium
 34,23,Torrey,Leyden,515 S Neil St,607-446-5925,Therapy 3,,Champaign,IL,,,,,
-35,24,Rinaldo,Attkins,404 W University Ave,129-178-2782,Therapy 1,"Belladonna, Bryonia, Capsicum annuum, Chininum arsenicosum, Coffea cruda, Gelsemium sempervirens, Glonoinum, Ignatia amara, Kali bichromicum, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Sanguinaria canadensis, Spigelia anthelmia, Sulphur.",Urbana ,IL,429,Task Type 2,89,3/14/18,High
-36,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,28,Task Type 2,13,3/14/18,Low
-37,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,138,Task Type 3,22,3/11/18,Medium
-38,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,542,Task Type 3,10,3/11/18,Medium
-39,26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL,67,Task Type 1,6,3/11/18,High
-40,26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL,916,Task Type 2,55,3/13/18,High
+35,24,Rinaldo,Attkins,404 W University Ave,129-178-2782,Therapy 1,"Belladonna, Bryonia, Capsicum annuum, Chininum arsenicosum, Coffea cruda, Gelsemium sempervirens, Glonoinum, Ignatia amara, Kali bichromicum, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Sanguinaria canadensis, Spigelia anthelmia, Sulphur.",Urbana ,IL,429.0,Task Type 2,89.0,3/14/2018,High
+36,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,28.0,Task Type 2,13.0,3/14/2018,Low
+37,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,138.0,Task Type 3,22.0,3/11/2018,Medium
+38,25,Temp,Vanlint,1765 W Kirby Ave,137-734-2553,Therapy 3,,Champaign,IL,542.0,Task Type 3,10.0,3/11/2018,Medium
+39,26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL,67.0,Task Type 1,6.0,3/11/2018,High
+40,26,Falkner,Pritchett,1903 Convenience Pl,812-877-9191,Therapy 1,PILOCARPUS JABORANDI LEAF,Champaign,IL,916.0,Task Type 2,55.0,3/13/2018,High
+41,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,12.0,Task Type 1,3.0,3/11/2018,High
+42,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,51.0,Task Type 2,48.0,3/11/2018,Low
+43,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,306.0,Task Type 2,53.0,3/13/2018,High
+44,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,350.0,Task Type 2,18.0,3/11/2018,Medium
+45,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,380.0,Task Type 1,50.0,3/12/2018,Low
+46,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,834.0,Task Type 2,18.0,3/13/2018,Medium
+47,27,Ulysses,Yakunkin,3372 University Hill Road,503-223-0203,Therapy 2,,Champaign,IL,937.0,Task Type 1,44.0,3/12/2018,Medium
+48,28,Jae,Stranger,324 Bolman Court,145-966-0358,Therapy 1,Menthol 1%,Champaign,IL,846.0,Task Type 3,60.0,3/11/2018,High
+49,28,Jae,Stranger,324 Bolman Court,145-966-0358,Therapy 1,Menthol 1%,Champaign,IL,924.0,Task Type 1,96.0,3/14/2018,High
+50,29,Beltran,Cape,2378 Little Acres Lane,628-101-7915,Therapy 1,Standardized Mite D. farinae,Champaign,IL,484.0,Task Type 2,95.0,3/11/2018,High
+51,29,Beltran,Cape,2378 Little Acres Lane,628-101-7915,Therapy 1,Standardized Mite D. farinae,Champaign,IL,601.0,Task Type 1,11.0,3/14/2018,Medium
+52,29,Beltran,Cape,2378 Little Acres Lane,628-101-7915,Therapy 1,Standardized Mite D. farinae,Champaign,IL,695.0,Task Type 1,29.0,3/12/2018,Low
+53,29,Beltran,Cape,2378 Little Acres Lane,628-101-7915,Therapy 1,Standardized Mite D. farinae,Champaign,IL,940.0,Task Type 2,29.0,3/12/2018,Medium
+54,30,Karisa,Wyman,1253 Scenic Way,519-826-7132,Therapy 3,,Champaign,IL,158.0,Task Type 2,41.0,3/14/2018,Low
+55,30,Karisa,Wyman,1253 Scenic Way,519-826-7132,Therapy 3,,Champaign,IL,374.0,Task Type 2,46.0,3/11/2018,High
+56,30,Karisa,Wyman,1253 Scenic Way,519-826-7132,Therapy 3,,Champaign,IL,719.0,Task Type 2,17.0,3/14/2018,High
+57,31,Clovis,MacLardie,282 Spring Street,163-852-3731,Therapy 2,,Champaign,IL,,,,,
+58,32,Latrena,Zambonini,3089 University Hill Road,922-388-6538,Therapy 2,,Champaign,IL,725.0,Task Type 2,1.0,3/12/2018,Low
+59,33,Ado,Diss,4794 Scenic Way,474-486-0650,Therapy 2,,Champaign,IL,,,,,
+60,34,Suzi,Croft,4255 University Hill Road,300-722-8665,Therapy 1,,Champaign,IL,711.0,Task Type 2,16.0,3/14/2018,Medium
+61,35,Charline,Igglesden,3933 Little Acres Lane,,Therapy 3,,Champaign,IL,154.0,Task Type 3,23.0,3/11/2018,Low
+62,36,Sylas,Engall,3148 Bolman Court,905-973-3864,Therapy 3,,Champaign,IL,420.0,Task Type 1,90.0,3/14/2018,High
+63,36,Sylas,Engall,3148 Bolman Court,905-973-3864,Therapy 3,,Champaign,IL,488.0,Task Type 2,76.0,3/13/2018,Low
+64,36,Sylas,Engall,3148 Bolman Court,905-973-3864,Therapy 3,,Champaign,IL,585.0,Task Type 3,37.0,3/14/2018,Low
+65,36,Sylas,Engall,3148 Bolman Court,905-973-3864,Therapy 3,,Champaign,IL,654.0,Task Type 2,38.0,3/12/2018,Low
+66,37,Adelind,Dowe,1662 University Hill Road,587-443-9416,Therapy 3,,Champaign,IL,498.0,Task Type 1,30.0,3/14/2018,Low
+67,37,Adelind,Dowe,1662 University Hill Road,587-443-9416,Therapy 3,,Champaign,IL,935.0,Task Type 3,64.0,3/12/2018,High
+68,37,Adelind,Dowe,1662 University Hill Road,587-443-9416,Therapy 3,,Champaign,IL,971.0,Task Type 1,25.0,3/12/2018,Low
+69,38,Karyn,Salliere,2120 University Hill Road,129-769-4427,Therapy 2,,Champaign,IL,372.0,Task Type 3,70.0,3/14/2018,High
+70,38,Karyn,Salliere,2120 University Hill Road,129-769-4427,Therapy 2,,Champaign,IL,639.0,Task Type 3,30.0,3/13/2018,High
+71,39,Petrina,Sorrill,4984 Scenic Way,330-160-0815,Therapy 3,leuprolide acetate,Champaign,IL,,,,,
+72,40,Carlyn,Weatherley,1583 Bolman Court,898-490-0470,Therapy 3,,Champaign,IL,151.0,Task Type 3,87.0,3/13/2018,Low
+73,40,Carlyn,Weatherley,1583 Bolman Court,898-490-0470,Therapy 3,,Champaign,IL,477.0,Task Type 3,98.0,3/14/2018,High
+74,40,Carlyn,Weatherley,1583 Bolman Court,898-490-0470,Therapy 3,,Champaign,IL,951.0,Task Type 2,34.0,3/14/2018,Low
+75,41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL,90.0,Task Type 3,59.0,3/14/2018,High
+76,41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL,127.0,Task Type 2,77.0,3/13/2018,High
+77,41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL,333.0,Task Type 1,32.0,3/12/2018,Medium
+78,41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL,888.0,Task Type 2,93.0,3/14/2018,Low
+79,41,Paten,Thurlow,1511 Bolman Court,,Therapy 1,Pantoprazole Sodium,Champaign,IL,939.0,Task Type 1,13.0,3/13/2018,Low
+80,42,Sibby,Tunnacliffe,4265 Scenic Way,888-240-2998,Therapy 2,,Champaign,IL,,,,,
+81,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,104.0,Task Type 3,22.0,3/14/2018,Low
+82,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,152.0,Task Type 2,19.0,3/12/2018,Low
+83,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,178.0,Task Type 2,44.0,3/11/2018,High
+84,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,307.0,Task Type 1,4.0,3/11/2018,Low
+85,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,589.0,Task Type 3,58.0,3/13/2018,Low
+86,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,652.0,Task Type 2,74.0,3/13/2018,Medium
+87,43,Nealson,Fearnsides,3544 Bolman Court,596-718-1028,Therapy 2,,Champaign,IL,718.0,Task Type 2,25.0,3/13/2018,Low
+88,44,Mallorie,Amps,3494 Cardinal Lane,482-141-0924,Therapy 3,,Champaign,IL,6.0,Task Type 3,62.0,3/13/2018,High
+89,44,Mallorie,Amps,3494 Cardinal Lane,482-141-0924,Therapy 3,,Champaign,IL,294.0,Task Type 1,86.0,3/12/2018,Medium
+90,44,Mallorie,Amps,3494 Cardinal Lane,482-141-0924,Therapy 3,,Champaign,IL,800.0,Task Type 1,99.0,3/14/2018,Low
+91,45,Katinka,Lago,2588 Cardinal Lane,150-564-3604,Therapy 3,Cefprozil,Champaign,IL,,,,,
+92,46,Denis,Whitney,3020 Isaacs Creek Road,804-683-8430,Therapy 1,,Champaign,IL,602.0,Task Type 2,62.0,3/12/2018,Medium
+93,47,Mitchel,Erlam,3636 Spring Street,,Therapy 2,,Champaign,IL,,,,,
+94,48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL,196.0,Task Type 2,97.0,3/11/2018,Low
+95,48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL,302.0,Task Type 1,88.0,3/14/2018,Low
+96,48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL,417.0,Task Type 1,54.0,3/13/2018,Medium
+97,48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL,699.0,Task Type 1,15.0,3/12/2018,Medium
+98,48,Erin,Rosell,1607 Cardinal Lane,957-250-6468,Therapy 2,,Champaign,IL,894.0,Task Type 2,95.0,3/11/2018,Medium
+99,49,Rodrique,Treend,224 Scenic Way,263-948-5297,Therapy 2,,Champaign,IL,349.0,Task Type 3,12.0,3/13/2018,High
+100,50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL,246.0,Task Type 3,64.0,3/12/2018,High
+101,50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL,265.0,Task Type 2,44.0,3/11/2018,Medium
+102,50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL,525.0,Task Type 1,99.0,3/14/2018,Low
+103,50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL,790.0,Task Type 1,60.0,3/13/2018,Low
+104,50,Yvon,Speers,1357 University Hill Road,170-677-2795,Therapy 2,,Champaign,IL,811.0,Task Type 1,65.0,3/13/2018,Medium
+105,51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL,342.0,Task Type 1,8.0,3/12/2018,Medium
+106,51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL,358.0,Task Type 2,53.0,3/12/2018,High
+107,51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL,519.0,Task Type 3,92.0,3/14/2018,High
+108,51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL,766.0,Task Type 2,54.0,3/12/2018,Low
+109,51,Gustaf,Janiszewski,3405 N Countryview RD,108-465-6041,Therapy 2,,Urbana ,IL,869.0,Task Type 3,57.0,3/14/2018,High
+110,52,Millie,Lorenzo,201 W Vermont AVE,849-907-9262,Therapy 2,,Urbana ,IL,448.0,Task Type 3,91.0,3/12/2018,Low
+111,52,Millie,Lorenzo,201 W Vermont AVE,849-907-9262,Therapy 2,,Urbana ,IL,770.0,Task Type 1,38.0,3/12/2018,Medium
+112,52,Millie,Lorenzo,201 W Vermont AVE,849-907-9262,Therapy 2,,Urbana ,IL,851.0,Task Type 1,49.0,3/11/2018,Medium
+113,53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL,83.0,Task Type 2,69.0,3/14/2018,Low
+114,53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL,440.0,Task Type 2,37.0,3/14/2018,Medium
+115,53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL,672.0,Task Type 3,98.0,3/11/2018,High
+116,53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL,708.0,Task Type 1,38.0,3/11/2018,Low
+117,53,Marco,Weldrake,2007 E Amber LN,517-483-0440,Therapy 2,,Urbana ,IL,907.0,Task Type 2,96.0,3/12/2018,Low
+118,54,Osborne,Dowey,1309 E Fairlawn DR,866-296-4053,Therapy 1,,Urbana ,IL,486.0,Task Type 2,77.0,3/14/2018,High
+119,55,Ahmed,Nutman,305 S Dodson DR,185-918-1178,Therapy 3,,Urbana ,IL,606.0,Task Type 3,39.0,3/14/2018,Low
+120,55,Ahmed,Nutman,305 S Dodson DR,185-918-1178,Therapy 3,,Urbana ,IL,688.0,Task Type 1,38.0,3/14/2018,Medium
+121,55,Ahmed,Nutman,305 S Dodson DR,185-918-1178,Therapy 3,,Urbana ,IL,879.0,Task Type 1,99.0,3/14/2018,Medium
+122,56,Jocelyne,Glasscoe,1948 Jefferson DR,932-202-8085,Therapy 3,,Urbana ,IL,438.0,Task Type 3,40.0,3/13/2018,Medium
+123,56,Jocelyne,Glasscoe,1948 Jefferson DR,932-202-8085,Therapy 3,,Urbana ,IL,603.0,Task Type 2,80.0,3/13/2018,Low
+124,56,Jocelyne,Glasscoe,1948 Jefferson DR,932-202-8085,Therapy 3,,Urbana ,IL,745.0,Task Type 3,91.0,3/14/2018,Medium
+125,56,Jocelyne,Glasscoe,1948 Jefferson DR,932-202-8085,Therapy 3,,Urbana ,IL,945.0,Task Type 3,68.0,3/14/2018,Medium
+126,57,Melina,Halegarth,408 Pond Ridge LN,281-573-3189,Therapy 2,"atropa belladonna, euphrasia stricta and mercuric chloride",Urbana ,IL,649.0,Task Type 1,93.0,3/14/2018,High
+127,57,Melina,Halegarth,408 Pond Ridge LN,281-573-3189,Therapy 2,"atropa belladonna, euphrasia stricta and mercuric chloride",Urbana ,IL,791.0,Task Type 2,98.0,3/12/2018,High
+128,58,Gabriela,Nials,2502 Fairfield DR,633-110-5811,Therapy 1,Benzocaine,Urbana ,IL,203.0,Task Type 2,39.0,3/11/2018,Low
+129,59,Cort,Loreit,901 W Illinois ST,528-947-9472,Therapy 3,,Urbana ,IL,99.0,Task Type 3,23.0,3/13/2018,High
+130,59,Cort,Loreit,901 W Illinois ST,528-947-9472,Therapy 3,,Urbana ,IL,487.0,Task Type 3,66.0,3/11/2018,High
+131,59,Cort,Loreit,901 W Illinois ST,528-947-9472,Therapy 3,,Urbana ,IL,580.0,Task Type 2,54.0,3/11/2018,Medium
+132,60,Hillary,Joscelyne,2412 E Florida AVE,487-786-9050,Therapy 1,,Urbana ,IL,137.0,Task Type 2,48.0,3/11/2018,High
+133,60,Hillary,Joscelyne,2412 E Florida AVE,487-786-9050,Therapy 1,,Urbana ,IL,273.0,Task Type 2,49.0,3/14/2018,High
+134,60,Hillary,Joscelyne,2412 E Florida AVE,487-786-9050,Therapy 1,,Urbana ,IL,285.0,Task Type 1,32.0,3/13/2018,High
+135,60,Hillary,Joscelyne,2412 E Florida AVE,487-786-9050,Therapy 1,,Urbana ,IL,529.0,Task Type 3,8.0,3/13/2018,Low
+136,61,Gloriana,Sinkings,708 S Goodwin AVE,243-308-4984,Therapy 2,TITANIUM DIOXIDE,Urbana ,IL,226.0,Task Type 1,66.0,3/11/2018,High
+137,61,Gloriana,Sinkings,708 S Goodwin AVE,243-308-4984,Therapy 2,TITANIUM DIOXIDE,Urbana ,IL,249.0,Task Type 1,27.0,3/11/2018,Low
+138,61,Gloriana,Sinkings,708 S Goodwin AVE,243-308-4984,Therapy 2,TITANIUM DIOXIDE,Urbana ,IL,283.0,Task Type 2,86.0,3/13/2018,High
+139,61,Gloriana,Sinkings,708 S Goodwin AVE,243-308-4984,Therapy 2,TITANIUM DIOXIDE,Urbana ,IL,626.0,Task Type 2,3.0,3/12/2018,Medium
+140,62,Tani,Leftbridge,2203 E Pennsylvania AVE,270-962-1063,Therapy 2,"Camphor, Menthol, Methyl Salicylate",Urbana ,IL,18.0,Task Type 1,97.0,3/11/2018,Medium
+141,62,Tani,Leftbridge,2203 E Pennsylvania AVE,270-962-1063,Therapy 2,"Camphor, Menthol, Methyl Salicylate",Urbana ,IL,343.0,Task Type 2,97.0,3/13/2018,High
+142,63,Germain,Joanic,822 E Oakland AVE #102,557-139-4078,Therapy 3,,Urbana ,IL,25.0,Task Type 3,34.0,3/11/2018,Medium
+143,63,Germain,Joanic,822 E Oakland AVE #102,557-139-4078,Therapy 3,,Urbana ,IL,172.0,Task Type 3,27.0,3/13/2018,Low
+144,63,Germain,Joanic,822 E Oakland AVE #102,557-139-4078,Therapy 3,,Urbana ,IL,864.0,Task Type 1,37.0,3/12/2018,Low
+145,63,Germain,Joanic,822 E Oakland AVE #102,557-139-4078,Therapy 3,,Urbana ,IL,942.0,Task Type 3,63.0,3/14/2018,High
+146,64,Adrianna,Bryson,2106 E Main ST,814-173-5204,Therapy 3,Nicotine Polacrilex,Urbana ,IL,,,,,
+147,65,Bealle,Del Monte,810 W Green ST,537-243-9783,Therapy 2,,Urbana ,IL,,,,,
+148,66,Kathryne,Lowey,1304 Ellis DR,423-520-4694,Therapy 1,,Urbana ,IL,71.0,Task Type 1,98.0,3/13/2018,Low
+149,67,Agnella,Purvis,157 George ST,278-290-9861,Therapy 2,,Urbana ,IL,362.0,Task Type 1,49.0,3/11/2018,Low
+150,67,Agnella,Purvis,157 George ST,278-290-9861,Therapy 2,,Urbana ,IL,709.0,Task Type 3,91.0,3/14/2018,Medium
+151,68,Betteann,Nettleship,201 N Goodwin AVE,695-599-3456,Therapy 2,Povidone Iodine,Urbana ,IL,758.0,Task Type 1,98.0,3/11/2018,Low
+152,68,Betteann,Nettleship,201 N Goodwin AVE,695-599-3456,Therapy 2,Povidone Iodine,Urbana ,IL,821.0,Task Type 1,12.0,3/13/2018,Medium
+153,68,Betteann,Nettleship,201 N Goodwin AVE,695-599-3456,Therapy 2,Povidone Iodine,Urbana ,IL,825.0,Task Type 1,94.0,3/12/2018,Low
+154,69,Colly,Havis,2202 S Cottage Grove AVE,174-936-3677,Therapy 2,,Urbana ,IL,136.0,Task Type 2,96.0,3/13/2018,Low
+155,69,Colly,Havis,2202 S Cottage Grove AVE,174-936-3677,Therapy 2,,Urbana ,IL,817.0,Task Type 3,45.0,3/14/2018,High
+156,69,Colly,Havis,2202 S Cottage Grove AVE,174-936-3677,Therapy 2,,Urbana ,IL,999.0,Task Type 1,80.0,3/11/2018,Low
+157,70,Hyacintha,Ruos,2509 Combes ST,350-134-2223,Therapy 2,HUMAN IMMUNOGLOBULIN G,Urbana ,IL,750.0,Task Type 2,93.0,3/12/2018,Low
+158,70,Hyacintha,Ruos,2509 Combes ST,350-134-2223,Therapy 2,HUMAN IMMUNOGLOBULIN G,Urbana ,IL,970.0,Task Type 1,63.0,3/11/2018,Low
+159,71,Adriano,Kelcey,904 E Shurts ST,391-156-6266,Therapy 2,,Urbana ,IL,177.0,Task Type 3,5.0,3/13/2018,High
+160,71,Adriano,Kelcey,904 E Shurts ST,391-156-6266,Therapy 2,,Urbana ,IL,206.0,Task Type 1,68.0,3/14/2018,Medium
+161,71,Adriano,Kelcey,904 E Shurts ST,391-156-6266,Therapy 2,,Urbana ,IL,469.0,Task Type 2,95.0,3/12/2018,Medium
+162,72,Davidde,Kusick,2106 Burlison DR,718-580-5739,Therapy 3,,Urbana ,IL,212.0,Task Type 3,88.0,3/14/2018,High
+163,72,Davidde,Kusick,2106 Burlison DR,718-580-5739,Therapy 3,,Urbana ,IL,700.0,Task Type 3,87.0,3/13/2018,Medium
+164,73,Jenda,Hardingham,305 Burwash DR,326-398-9155,Therapy 3,tazarotene,Savoy,IL,826.0,Task Type 2,83.0,3/14/2018,Medium
+165,73,Jenda,Hardingham,305 Burwash DR,326-398-9155,Therapy 3,tazarotene,Savoy,IL,926.0,Task Type 2,74.0,3/12/2018,Medium
+166,74,Dory,Hember,109 W Tomaras AVE #APT C,,Therapy 2,,Savoy,IL,757.0,Task Type 2,55.0,3/14/2018,Low
+167,74,Dory,Hember,109 W Tomaras AVE #APT C,,Therapy 2,,Savoy,IL,792.0,Task Type 2,90.0,3/12/2018,Medium
+168,75,Van,Fairn,300 Paddock DR W,953-728-0106,Therapy 2,,Savoy,IL,933.0,Task Type 2,22.0,3/13/2018,High
+169,76,Skye,Dukelow,301 Curtis RD #APT 6-105,259-938-8488,Therapy 3,,Savoy,IL,282.0,Task Type 2,49.0,3/11/2018,Low
+170,76,Skye,Dukelow,301 Curtis RD #APT 6-105,259-938-8488,Therapy 3,,Savoy,IL,731.0,Task Type 3,63.0,3/13/2018,High
+171,76,Skye,Dukelow,301 Curtis RD #APT 6-105,259-938-8488,Therapy 3,,Savoy,IL,739.0,Task Type 2,49.0,3/13/2018,High
+172,77,Cassandry,Emilien,179 Paddock DR W,513-653-4424,Therapy 2,,Savoy,IL,,,,,
+173,78,Mari,Danielli,1801 Woodfield DR,168-354-7538,Therapy 1,,Savoy,IL,782.0,Task Type 2,13.0,3/13/2018,High
+174,79,Tommie,Beckensall,1013 Declaration DR,939-270-7676,Therapy 2,,Savoy,IL,,,,,
+175,80,Percy,Bann,100 Parkview LN #134,829-400-8893,Therapy 3,,Savoy,IL,489.0,Task Type 2,34.0,3/14/2018,Medium
+176,81,Drake,O'Rodane,1013 Declaration DR,135-280-0690,Therapy 3,,Savoy,IL,510.0,Task Type 2,13.0,3/13/2018,Medium
+177,81,Drake,O'Rodane,1013 Declaration DR,135-280-0690,Therapy 3,,Savoy,IL,671.0,Task Type 2,18.0,3/11/2018,High
+178,82,Harbert,Kalkhoven,710 Silver Lake CT,528-312-4790,Therapy 1,,Savoy,IL,161.0,Task Type 1,68.0,3/13/2018,Low
+179,82,Harbert,Kalkhoven,710 Silver Lake CT,528-312-4790,Therapy 1,,Savoy,IL,370.0,Task Type 3,29.0,3/11/2018,High
+180,83,Jenny,Gadie,502 Dropseed DR,661-477-6832,Therapy 3,Methocarbamol,Savoy,IL,515.0,Task Type 1,59.0,3/12/2018,High
+181,83,Jenny,Gadie,502 Dropseed DR,661-477-6832,Therapy 3,Methocarbamol,Savoy,IL,880.0,Task Type 3,60.0,3/13/2018,Medium
+182,84,Lonnie,Natalie,185 Paddock DR E,896-812-5665,Therapy 2,,Savoy,IL,202.0,Task Type 3,91.0,3/12/2018,Low
+183,84,Lonnie,Natalie,185 Paddock DR E,896-812-5665,Therapy 2,,Savoy,IL,435.0,Task Type 3,44.0,3/13/2018,High
+184,85,Gladys,Crich,506 Wesley AVE,334-490-4451,Therapy 1,,Savoy,IL,,,,,
+185,86,Laureen,Hazlewood,103 Portsmouth LN #5,552-758-5189,Therapy 2,,Savoy,IL,63.0,Task Type 1,11.0,3/13/2018,High
+186,86,Laureen,Hazlewood,103 Portsmouth LN #5,552-758-5189,Therapy 2,,Savoy,IL,303.0,Task Type 3,33.0,3/12/2018,Low
+187,86,Laureen,Hazlewood,103 Portsmouth LN #5,552-758-5189,Therapy 2,,Savoy,IL,403.0,Task Type 1,60.0,3/12/2018,Low
+188,87,Josy,Langrick,113 Gentian ST,439-716-7225,Therapy 3,,Savoy,IL,86.0,Task Type 2,27.0,3/11/2018,Low
+189,87,Josy,Langrick,113 Gentian ST,439-716-7225,Therapy 3,,Savoy,IL,96.0,Task Type 1,76.0,3/14/2018,High
+190,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,27.0,Task Type 1,18.0,3/11/2018,Medium
+191,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,573.0,Task Type 3,18.0,3/11/2018,Low
+192,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,593.0,Task Type 1,16.0,3/11/2018,Low
+193,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,742.0,Task Type 1,71.0,3/13/2018,Medium
+194,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,899.0,Task Type 2,91.0,3/14/2018,Low
+195,88,Gris,Tomini,604 Buttercup DR,964-446-8343,Therapy 3,CARBIDOPA AND LEVODOPA,Savoy,IL,955.0,Task Type 3,3.0,3/13/2018,High
+196,89,Elianore,Fitton,606 Indigo DR,506-645-5059,Therapy 1,,Savoy,IL,,,,,
+197,90,Nelia,Rahl,302 Burwash AVE,858-557-1138,Therapy 2,,Savoy,IL,43.0,Task Type 1,19.0,3/13/2018,High
+198,91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL,150.0,Task Type 2,96.0,3/11/2018,High
+199,91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL,595.0,Task Type 3,60.0,3/14/2018,Medium
+200,91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL,802.0,Task Type 2,1.0,3/13/2018,Low
+201,91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL,809.0,Task Type 3,69.0,3/14/2018,Medium
+202,91,Cecil,Kalisch,414 London WAY,401-378-8253,Therapy 2,,Savoy,IL,867.0,Task Type 1,53.0,3/13/2018,Low
+203,92,Nicolais,Waplington,905 Meadow View CT,734-563-6085,Therapy 1,,Savoy,IL,557.0,Task Type 1,8.0,3/12/2018,Low
+204,93,Jesus,Leachman,103 S Dunlap AVE,810-942-6261,Therapy 1,,Savoy,IL,217.0,Task Type 3,24.0,3/14/2018,Low
+205,93,Jesus,Leachman,103 S Dunlap AVE,810-942-6261,Therapy 1,,Savoy,IL,357.0,Task Type 2,64.0,3/13/2018,High
+206,93,Jesus,Leachman,103 S Dunlap AVE,810-942-6261,Therapy 1,,Savoy,IL,833.0,Task Type 1,48.0,3/13/2018,Low
+207,94,Christian,Grimble,704 Wesley AVE,449-539-5605,Therapy 1,,Savoy,IL,4.0,Task Type 1,39.0,3/11/2018,High
+208,94,Christian,Grimble,704 Wesley AVE,449-539-5605,Therapy 1,,Savoy,IL,278.0,Task Type 2,43.0,3/11/2018,Medium
+209,94,Christian,Grimble,704 Wesley AVE,449-539-5605,Therapy 1,,Savoy,IL,628.0,Task Type 1,1.0,3/14/2018,Low
+210,94,Christian,Grimble,704 Wesley AVE,449-539-5605,Therapy 1,,Savoy,IL,698.0,Task Type 1,68.0,3/11/2018,Medium
+211,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,45.0,Task Type 1,53.0,3/13/2018,Medium
+212,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,208.0,Task Type 3,87.0,3/12/2018,Low
+213,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,280.0,Task Type 1,29.0,3/12/2018,High
+214,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,293.0,Task Type 3,7.0,3/12/2018,Medium
+215,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,408.0,Task Type 1,89.0,3/11/2018,High
+216,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,494.0,Task Type 3,62.0,3/13/2018,Low
+217,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,874.0,Task Type 2,37.0,3/11/2018,Medium
+218,95,Elenore,Sculpher,409 Wesley AVE,471-266-3380,Therapy 1,Cyclobenzaprine Hydrochloride,Savoy,IL,979.0,Task Type 2,40.0,3/12/2018,High
+219,96,Trixy,Petren,1401 Quail Run DR,602-385-0765,Therapy 3,losartan potassium,Savoy,IL,239.0,Task Type 2,56.0,3/11/2018,High
+220,96,Trixy,Petren,1401 Quail Run DR,602-385-0765,Therapy 3,losartan potassium,Savoy,IL,481.0,Task Type 1,34.0,3/11/2018,Low
+221,96,Trixy,Petren,1401 Quail Run DR,602-385-0765,Therapy 3,losartan potassium,Savoy,IL,530.0,Task Type 2,15.0,3/12/2018,Medium
+222,97,Merry,Hawney,8 Magnolia CT,669-308-4882,Therapy 1,,Savoy,IL,829.0,Task Type 1,4.0,3/12/2018,High
+223,98,Camey,Biasio,1617 Lyndhurst DR,332-869-6562,Therapy 2,,Savoy,IL,80.0,Task Type 3,16.0,3/14/2018,Medium
+224,98,Camey,Biasio,1617 Lyndhurst DR,332-869-6562,Therapy 2,,Savoy,IL,108.0,Task Type 3,59.0,3/11/2018,Low
+225,98,Camey,Biasio,1617 Lyndhurst DR,332-869-6562,Therapy 2,,Savoy,IL,324.0,Task Type 3,28.0,3/12/2018,Medium
+226,98,Camey,Biasio,1617 Lyndhurst DR,332-869-6562,Therapy 2,,Savoy,IL,558.0,Task Type 2,59.0,3/12/2018,Medium
+227,99,Dorthy,Yewdall,302 Burwash AVE,370-287-1660,Therapy 3,,Savoy,IL,260.0,Task Type 2,89.0,3/11/2018,Low
+228,100,Ezechiel,Ridge,204 Misty CV,903-432-5968,Therapy 3,,Savoy,IL,,,,,
+229,482,,,,,,,,,1.0,Task Type 1,77.0,3/13/2018,Medium
+230,482,,,,,,,,,106.0,Task Type 1,70.0,3/12/2018,Medium
+231,482,,,,,,,,,391.0,Task Type 1,45.0,3/14/2018,High
+232,489,,,,,,,,,2.0,Task Type 3,90.0,3/13/2018,High
+233,489,,,,,,,,,37.0,Task Type 1,21.0,3/12/2018,Medium
+234,489,,,,,,,,,763.0,Task Type 3,72.0,3/14/2018,Low
+235,489,,,,,,,,,993.0,Task Type 1,2.0,3/12/2018,Low
+236,485,,,,,,,,,3.0,Task Type 2,19.0,3/13/2018,High
+237,485,,,,,,,,,288.0,Task Type 3,4.0,3/12/2018,High
+238,485,,,,,,,,,769.0,Task Type 3,24.0,3/14/2018,High
+239,127,,,,,,,,,5.0,Task Type 2,76.0,3/11/2018,High
+240,127,,,,,,,,,838.0,Task Type 1,51.0,3/13/2018,High
+241,299,,,,,,,,,7.0,Task Type 3,33.0,3/12/2018,High
+242,299,,,,,,,,,482.0,Task Type 2,78.0,3/14/2018,High
+243,299,,,,,,,,,713.0,Task Type 3,50.0,3/14/2018,Medium
+244,299,,,,,,,,,772.0,Task Type 2,31.0,3/11/2018,Low
+245,162,,,,,,,,,8.0,Task Type 1,39.0,3/12/2018,Low
+246,162,,,,,,,,,268.0,Task Type 1,1.0,3/13/2018,Medium
+247,162,,,,,,,,,321.0,Task Type 1,59.0,3/13/2018,High
+248,162,,,,,,,,,774.0,Task Type 2,41.0,3/14/2018,Low
+249,384,,,,,,,,,9.0,Task Type 3,65.0,3/14/2018,High
+250,384,,,,,,,,,299.0,Task Type 3,95.0,3/14/2018,Low
+251,384,,,,,,,,,457.0,Task Type 3,22.0,3/12/2018,Low
+252,384,,,,,,,,,470.0,Task Type 1,61.0,3/13/2018,Low
+253,214,,,,,,,,,10.0,Task Type 1,15.0,3/14/2018,Medium
+254,214,,,,,,,,,15.0,Task Type 3,23.0,3/14/2018,High
+255,214,,,,,,,,,578.0,Task Type 3,38.0,3/12/2018,High
+256,214,,,,,,,,,659.0,Task Type 3,34.0,3/14/2018,Medium
+257,214,,,,,,,,,776.0,Task Type 3,37.0,3/11/2018,Low
+258,407,,,,,,,,,11.0,Task Type 1,30.0,3/12/2018,High
+259,407,,,,,,,,,97.0,Task Type 2,75.0,3/11/2018,Low
+260,407,,,,,,,,,230.0,Task Type 3,52.0,3/13/2018,Low
+261,456,,,,,,,,,14.0,Task Type 3,7.0,3/13/2018,High
+262,456,,,,,,,,,266.0,Task Type 3,62.0,3/14/2018,High
+263,456,,,,,,,,,325.0,Task Type 1,29.0,3/11/2018,Low
+264,456,,,,,,,,,423.0,Task Type 1,16.0,3/13/2018,Low
+265,456,,,,,,,,,545.0,Task Type 3,12.0,3/14/2018,High
+266,456,,,,,,,,,812.0,Task Type 2,16.0,3/14/2018,Medium
+267,411,,,,,,,,,16.0,Task Type 3,5.0,3/14/2018,Medium
+268,206,,,,,,,,,17.0,Task Type 1,6.0,3/14/2018,Medium
+269,400,,,,,,,,,19.0,Task Type 2,68.0,3/12/2018,Medium
+270,400,,,,,,,,,21.0,Task Type 2,92.0,3/12/2018,Low
+271,400,,,,,,,,,175.0,Task Type 2,70.0,3/13/2018,High
+272,400,,,,,,,,,648.0,Task Type 3,94.0,3/12/2018,Low
+273,400,,,,,,,,,689.0,Task Type 2,23.0,3/14/2018,High
+274,118,,,,,,,,,20.0,Task Type 1,12.0,3/13/2018,Medium
+275,118,,,,,,,,,466.0,Task Type 3,43.0,3/14/2018,Low
+276,333,,,,,,,,,22.0,Task Type 2,46.0,3/11/2018,High
+277,435,,,,,,,,,23.0,Task Type 1,8.0,3/12/2018,Low
+278,435,,,,,,,,,678.0,Task Type 3,97.0,3/12/2018,High
+279,251,,,,,,,,,24.0,Task Type 2,75.0,3/14/2018,Medium
+280,251,,,,,,,,,82.0,Task Type 1,48.0,3/13/2018,High
+281,362,,,,,,,,,26.0,Task Type 3,9.0,3/11/2018,Low
+282,362,,,,,,,,,110.0,Task Type 2,32.0,3/11/2018,Medium
+283,362,,,,,,,,,284.0,Task Type 1,43.0,3/11/2018,Low
+284,362,,,,,,,,,309.0,Task Type 3,99.0,3/11/2018,Low
+285,392,,,,,,,,,29.0,Task Type 2,93.0,3/12/2018,High
+286,392,,,,,,,,,205.0,Task Type 2,44.0,3/11/2018,Medium
+287,392,,,,,,,,,351.0,Task Type 2,76.0,3/11/2018,Medium
+288,392,,,,,,,,,460.0,Task Type 2,75.0,3/11/2018,High
+289,392,,,,,,,,,523.0,Task Type 2,49.0,3/12/2018,Medium
+290,392,,,,,,,,,541.0,Task Type 2,27.0,3/12/2018,Medium
+291,392,,,,,,,,,994.0,Task Type 3,86.0,3/14/2018,Low
+292,149,,,,,,,,,30.0,Task Type 2,18.0,3/14/2018,Low
+293,149,,,,,,,,,988.0,Task Type 2,100.0,3/12/2018,High
+294,153,,,,,,,,,31.0,Task Type 1,20.0,3/12/2018,High
+295,210,,,,,,,,,32.0,Task Type 1,14.0,3/13/2018,High
+296,210,,,,,,,,,213.0,Task Type 3,78.0,3/11/2018,Medium
+297,210,,,,,,,,,363.0,Task Type 2,94.0,3/11/2018,Medium
+298,381,,,,,,,,,34.0,Task Type 1,20.0,3/11/2018,Low
+299,381,,,,,,,,,163.0,Task Type 2,59.0,3/13/2018,Medium
+300,381,,,,,,,,,199.0,Task Type 2,70.0,3/13/2018,Medium
+301,381,,,,,,,,,637.0,Task Type 3,94.0,3/14/2018,Medium
+302,165,,,,,,,,,35.0,Task Type 3,67.0,3/14/2018,High
+303,165,,,,,,,,,56.0,Task Type 3,76.0,3/13/2018,Medium
+304,165,,,,,,,,,847.0,Task Type 3,35.0,3/14/2018,Medium
+305,344,,,,,,,,,36.0,Task Type 1,67.0,3/14/2018,Medium
+306,467,,,,,,,,,38.0,Task Type 3,57.0,3/12/2018,Low
+307,467,,,,,,,,,264.0,Task Type 1,1.0,3/11/2018,Low
+308,467,,,,,,,,,367.0,Task Type 3,47.0,3/12/2018,Low
+309,467,,,,,,,,,724.0,Task Type 3,61.0,3/13/2018,Low
+310,467,,,,,,,,,843.0,Task Type 1,98.0,3/14/2018,Low
+311,467,,,,,,,,,901.0,Task Type 3,15.0,3/13/2018,Low
+312,207,,,,,,,,,39.0,Task Type 1,40.0,3/12/2018,Medium
+313,207,,,,,,,,,551.0,Task Type 3,58.0,3/14/2018,Low
+314,207,,,,,,,,,768.0,Task Type 1,29.0,3/12/2018,High
+315,207,,,,,,,,,832.0,Task Type 3,1.0,3/11/2018,High
+316,341,,,,,,,,,40.0,Task Type 1,89.0,3/11/2018,Medium
+317,341,,,,,,,,,157.0,Task Type 1,38.0,3/11/2018,Low
+318,341,,,,,,,,,463.0,Task Type 1,75.0,3/14/2018,Low
+319,341,,,,,,,,,512.0,Task Type 3,15.0,3/13/2018,High
+320,389,,,,,,,,,41.0,Task Type 2,35.0,3/13/2018,Medium
+321,389,,,,,,,,,148.0,Task Type 1,15.0,3/14/2018,Medium
+322,495,,,,,,,,,42.0,Task Type 2,53.0,3/12/2018,Medium
+323,495,,,,,,,,,72.0,Task Type 2,69.0,3/14/2018,Low
+324,495,,,,,,,,,330.0,Task Type 3,72.0,3/11/2018,High
+325,495,,,,,,,,,566.0,Task Type 2,77.0,3/11/2018,Low
+326,495,,,,,,,,,629.0,Task Type 3,26.0,3/14/2018,Medium
+327,321,,,,,,,,,44.0,Task Type 2,56.0,3/12/2018,High
+328,321,,,,,,,,,255.0,Task Type 3,21.0,3/13/2018,High
+329,321,,,,,,,,,506.0,Task Type 1,46.0,3/12/2018,High
+330,334,,,,,,,,,46.0,Task Type 2,100.0,3/13/2018,Low
+331,334,,,,,,,,,60.0,Task Type 3,27.0,3/13/2018,Low
+332,252,,,,,,,,,47.0,Task Type 3,100.0,3/12/2018,Low
+333,252,,,,,,,,,535.0,Task Type 3,6.0,3/14/2018,Low
+334,252,,,,,,,,,703.0,Task Type 2,67.0,3/14/2018,Medium
+335,191,,,,,,,,,48.0,Task Type 3,68.0,3/13/2018,High
+336,191,,,,,,,,,400.0,Task Type 1,92.0,3/14/2018,High
+337,191,,,,,,,,,442.0,Task Type 1,100.0,3/13/2018,Low
+338,191,,,,,,,,,883.0,Task Type 3,41.0,3/12/2018,Low
+339,191,,,,,,,,,895.0,Task Type 2,91.0,3/14/2018,Low
+340,144,,,,,,,,,49.0,Task Type 1,6.0,3/12/2018,High
+341,144,,,,,,,,,670.0,Task Type 3,11.0,3/11/2018,Medium
+342,429,,,,,,,,,50.0,Task Type 3,34.0,3/12/2018,Medium
+343,429,,,,,,,,,508.0,Task Type 2,89.0,3/14/2018,Medium
+344,288,,,,,,,,,52.0,Task Type 2,48.0,3/13/2018,Low
+345,288,,,,,,,,,571.0,Task Type 2,47.0,3/12/2018,Medium
+346,190,,,,,,,,,53.0,Task Type 1,68.0,3/14/2018,Low
+347,190,,,,,,,,,550.0,Task Type 2,14.0,3/14/2018,High
+348,494,,,,,,,,,54.0,Task Type 1,16.0,3/12/2018,Medium
+349,494,,,,,,,,,235.0,Task Type 1,28.0,3/11/2018,Low
+350,494,,,,,,,,,461.0,Task Type 3,5.0,3/12/2018,Low
+351,367,,,,,,,,,55.0,Task Type 2,93.0,3/13/2018,High
+352,367,,,,,,,,,402.0,Task Type 1,76.0,3/12/2018,Medium
+353,367,,,,,,,,,531.0,Task Type 1,57.0,3/11/2018,Medium
+354,367,,,,,,,,,691.0,Task Type 2,32.0,3/11/2018,Low
+355,316,,,,,,,,,57.0,Task Type 1,16.0,3/11/2018,Medium
+356,316,,,,,,,,,289.0,Task Type 2,12.0,3/11/2018,High
+357,316,,,,,,,,,685.0,Task Type 1,11.0,3/14/2018,Medium
+358,274,,,,,,,,,58.0,Task Type 1,20.0,3/14/2018,Medium
+359,169,,,,,,,,,59.0,Task Type 1,83.0,3/14/2018,High
+360,169,,,,,,,,,270.0,Task Type 1,50.0,3/14/2018,Low
+361,169,,,,,,,,,732.0,Task Type 2,36.0,3/12/2018,Medium
+362,302,,,,,,,,,61.0,Task Type 2,4.0,3/12/2018,High
+363,302,,,,,,,,,805.0,Task Type 1,84.0,3/12/2018,Medium
+364,457,,,,,,,,,62.0,Task Type 1,54.0,3/14/2018,High
+365,180,,,,,,,,,64.0,Task Type 3,57.0,3/13/2018,Low
+366,180,,,,,,,,,173.0,Task Type 2,33.0,3/13/2018,Medium
+367,180,,,,,,,,,643.0,Task Type 1,57.0,3/11/2018,High
+368,180,,,,,,,,,934.0,Task Type 2,82.0,3/14/2018,Medium
+369,180,,,,,,,,,944.0,Task Type 1,64.0,3/13/2018,Low
+370,327,,,,,,,,,65.0,Task Type 1,100.0,3/11/2018,Medium
+371,327,,,,,,,,,974.0,Task Type 2,29.0,3/14/2018,Low
+372,236,,,,,,,,,66.0,Task Type 1,10.0,3/11/2018,High
+373,236,,,,,,,,,231.0,Task Type 2,19.0,3/13/2018,Low
+374,236,,,,,,,,,491.0,Task Type 1,70.0,3/12/2018,Medium
+375,205,,,,,,,,,68.0,Task Type 2,13.0,3/13/2018,Low
+376,205,,,,,,,,,996.0,Task Type 1,25.0,3/11/2018,Low
+377,249,,,,,,,,,69.0,Task Type 2,50.0,3/13/2018,Medium
+378,249,,,,,,,,,855.0,Task Type 2,65.0,3/14/2018,Medium
+379,249,,,,,,,,,903.0,Task Type 2,90.0,3/12/2018,Medium
+380,233,,,,,,,,,70.0,Task Type 1,5.0,3/12/2018,Low
+381,233,,,,,,,,,166.0,Task Type 3,89.0,3/14/2018,High
+382,233,,,,,,,,,247.0,Task Type 3,30.0,3/14/2018,Medium
+383,233,,,,,,,,,660.0,Task Type 2,15.0,3/13/2018,Low
+384,211,,,,,,,,,73.0,Task Type 1,73.0,3/11/2018,Medium
+385,211,,,,,,,,,902.0,Task Type 1,87.0,3/13/2018,Medium
+386,259,,,,,,,,,74.0,Task Type 2,95.0,3/11/2018,Low
+387,159,,,,,,,,,75.0,Task Type 2,71.0,3/13/2018,Medium
+388,159,,,,,,,,,479.0,Task Type 2,30.0,3/11/2018,High
+389,145,,,,,,,,,76.0,Task Type 3,49.0,3/13/2018,Low
+390,145,,,,,,,,,142.0,Task Type 1,79.0,3/14/2018,High
+391,265,,,,,,,,,77.0,Task Type 1,82.0,3/14/2018,Low
+392,265,,,,,,,,,642.0,Task Type 2,28.0,3/11/2018,Medium
+393,325,,,,,,,,,78.0,Task Type 2,27.0,3/12/2018,Low
+394,379,,,,,,,,,79.0,Task Type 1,58.0,3/13/2018,High
+395,379,,,,,,,,,433.0,Task Type 1,93.0,3/14/2018,Medium
+396,379,,,,,,,,,610.0,Task Type 1,13.0,3/14/2018,Low
+397,408,,,,,,,,,81.0,Task Type 3,46.0,3/13/2018,High
+398,488,,,,,,,,,84.0,Task Type 1,15.0,3/14/2018,Medium
+399,488,,,,,,,,,625.0,Task Type 1,78.0,3/13/2018,High
+400,471,,,,,,,,,85.0,Task Type 3,51.0,3/14/2018,Medium
+401,253,,,,,,,,,87.0,Task Type 2,78.0,3/12/2018,High
+402,253,,,,,,,,,245.0,Task Type 3,94.0,3/12/2018,High
+403,354,,,,,,,,,89.0,Task Type 2,17.0,3/13/2018,Low
+404,354,,,,,,,,,248.0,Task Type 3,53.0,3/12/2018,Medium
+405,354,,,,,,,,,707.0,Task Type 3,34.0,3/13/2018,Low
+406,354,,,,,,,,,964.0,Task Type 2,53.0,3/11/2018,Low
+407,102,,,,,,,,,92.0,Task Type 2,100.0,3/11/2018,Medium
+408,102,,,,,,,,,111.0,Task Type 2,84.0,3/12/2018,Low
+409,102,,,,,,,,,917.0,Task Type 3,25.0,3/13/2018,High
+410,370,,,,,,,,,93.0,Task Type 1,31.0,3/11/2018,High
+411,370,,,,,,,,,286.0,Task Type 1,28.0,3/12/2018,Medium
+412,370,,,,,,,,,364.0,Task Type 3,90.0,3/14/2018,Medium
+413,370,,,,,,,,,958.0,Task Type 1,5.0,3/14/2018,Low
+414,234,,,,,,,,,94.0,Task Type 1,18.0,3/14/2018,Low
+415,234,,,,,,,,,680.0,Task Type 1,53.0,3/11/2018,High
+416,234,,,,,,,,,729.0,Task Type 3,52.0,3/14/2018,High
+417,234,,,,,,,,,938.0,Task Type 2,53.0,3/13/2018,Medium
+418,234,,,,,,,,,976.0,Task Type 2,45.0,3/13/2018,Medium
+419,132,,,,,,,,,95.0,Task Type 2,52.0,3/11/2018,Low
+420,132,,,,,,,,,619.0,Task Type 3,16.0,3/13/2018,High
+421,132,,,,,,,,,756.0,Task Type 1,32.0,3/11/2018,High
+422,356,,,,,,,,,98.0,Task Type 1,26.0,3/12/2018,Low
+423,178,,,,,,,,,100.0,Task Type 2,51.0,3/12/2018,Medium
+424,178,,,,,,,,,139.0,Task Type 3,14.0,3/14/2018,Medium
+425,178,,,,,,,,,397.0,Task Type 2,95.0,3/11/2018,Medium
+426,238,,,,,,,,,101.0,Task Type 3,100.0,3/13/2018,Medium
+427,238,,,,,,,,,547.0,Task Type 1,21.0,3/14/2018,Medium
+428,238,,,,,,,,,927.0,Task Type 1,42.0,3/14/2018,Medium
+429,238,,,,,,,,,941.0,Task Type 2,86.0,3/11/2018,Low
+430,346,,,,,,,,,102.0,Task Type 2,77.0,3/11/2018,High
+431,346,,,,,,,,,375.0,Task Type 3,82.0,3/13/2018,Medium
+432,125,,,,,,,,,105.0,Task Type 1,14.0,3/14/2018,Medium
+433,125,,,,,,,,,576.0,Task Type 1,76.0,3/11/2018,Low
+434,125,,,,,,,,,990.0,Task Type 3,11.0,3/14/2018,High
+435,351,,,,,,,,,107.0,Task Type 1,86.0,3/13/2018,Low
+436,351,,,,,,,,,170.0,Task Type 2,11.0,3/13/2018,High
+437,351,,,,,,,,,369.0,Task Type 2,65.0,3/12/2018,Low
+438,351,,,,,,,,,511.0,Task Type 3,92.0,3/11/2018,High
+439,351,,,,,,,,,590.0,Task Type 3,93.0,3/12/2018,Low
+440,437,,,,,,,,,109.0,Task Type 2,84.0,3/12/2018,Low
+441,437,,,,,,,,,394.0,Task Type 2,75.0,3/11/2018,Low
+442,437,,,,,,,,,726.0,Task Type 3,100.0,3/14/2018,High
+443,437,,,,,,,,,738.0,Task Type 1,91.0,3/14/2018,Medium
+444,328,,,,,,,,,112.0,Task Type 2,1.0,3/12/2018,High
+445,328,,,,,,,,,133.0,Task Type 2,71.0,3/13/2018,Medium
+446,328,,,,,,,,,720.0,Task Type 1,100.0,3/12/2018,Medium
+447,142,,,,,,,,,113.0,Task Type 2,80.0,3/14/2018,High
+448,142,,,,,,,,,313.0,Task Type 3,95.0,3/13/2018,High
+449,245,,,,,,,,,114.0,Task Type 3,58.0,3/11/2018,High
+450,245,,,,,,,,,275.0,Task Type 2,65.0,3/14/2018,High
+451,245,,,,,,,,,339.0,Task Type 1,95.0,3/14/2018,Medium
+452,245,,,,,,,,,514.0,Task Type 2,70.0,3/13/2018,Low
+453,245,,,,,,,,,582.0,Task Type 3,27.0,3/11/2018,Low
+454,128,,,,,,,,,116.0,Task Type 2,45.0,3/14/2018,Low
+455,128,,,,,,,,,665.0,Task Type 2,40.0,3/12/2018,High
+456,329,,,,,,,,,117.0,Task Type 3,16.0,3/11/2018,Low
+457,329,,,,,,,,,936.0,Task Type 1,34.0,3/13/2018,High
+458,160,,,,,,,,,118.0,Task Type 1,4.0,3/11/2018,Medium
+459,160,,,,,,,,,334.0,Task Type 3,12.0,3/12/2018,High
+460,366,,,,,,,,,119.0,Task Type 3,10.0,3/13/2018,Medium
+461,303,,,,,,,,,120.0,Task Type 3,41.0,3/14/2018,Medium
+462,303,,,,,,,,,997.0,Task Type 2,88.0,3/14/2018,Low
+463,349,,,,,,,,,121.0,Task Type 2,95.0,3/12/2018,Low
+464,349,,,,,,,,,563.0,Task Type 2,59.0,3/14/2018,High
+465,349,,,,,,,,,858.0,Task Type 2,46.0,3/13/2018,High
+466,129,,,,,,,,,122.0,Task Type 2,77.0,3/11/2018,Medium
+467,129,,,,,,,,,635.0,Task Type 1,37.0,3/12/2018,Medium
+468,309,,,,,,,,,123.0,Task Type 1,80.0,3/13/2018,High
+469,309,,,,,,,,,201.0,Task Type 2,51.0,3/12/2018,High
+470,309,,,,,,,,,308.0,Task Type 2,65.0,3/13/2018,High
+471,309,,,,,,,,,859.0,Task Type 2,85.0,3/14/2018,Medium
+472,394,,,,,,,,,124.0,Task Type 2,9.0,3/12/2018,Low
+473,394,,,,,,,,,839.0,Task Type 2,95.0,3/13/2018,Medium
+474,450,,,,,,,,,125.0,Task Type 3,96.0,3/13/2018,High
+475,450,,,,,,,,,384.0,Task Type 2,100.0,3/12/2018,Low
+476,209,,,,,,,,,126.0,Task Type 2,60.0,3/13/2018,High
+477,209,,,,,,,,,261.0,Task Type 1,2.0,3/14/2018,Low
+478,209,,,,,,,,,572.0,Task Type 1,50.0,3/14/2018,Medium
+479,209,,,,,,,,,870.0,Task Type 2,30.0,3/11/2018,Low
+480,209,,,,,,,,,887.0,Task Type 1,27.0,3/11/2018,High
+481,412,,,,,,,,,128.0,Task Type 1,31.0,3/12/2018,Low
+482,412,,,,,,,,,863.0,Task Type 2,9.0,3/13/2018,Low
+483,463,,,,,,,,,129.0,Task Type 2,100.0,3/12/2018,High
+484,463,,,,,,,,,1000.0,Task Type 3,19.0,3/11/2018,Medium
+485,183,,,,,,,,,130.0,Task Type 1,3.0,3/14/2018,High
+486,183,,,,,,,,,781.0,Task Type 2,28.0,3/13/2018,Medium
+487,114,,,,,,,,,131.0,Task Type 3,80.0,3/12/2018,High
+488,114,,,,,,,,,318.0,Task Type 3,68.0,3/11/2018,Low
+489,347,,,,,,,,,132.0,Task Type 2,84.0,3/12/2018,Low
+490,345,,,,,,,,,134.0,Task Type 3,40.0,3/12/2018,Low
+491,345,,,,,,,,,868.0,Task Type 2,89.0,3/13/2018,Low
+492,226,,,,,,,,,135.0,Task Type 1,17.0,3/14/2018,Medium
+493,226,,,,,,,,,532.0,Task Type 3,82.0,3/14/2018,High
+494,402,,,,,,,,,140.0,Task Type 3,53.0,3/13/2018,High
+495,402,,,,,,,,,819.0,Task Type 1,87.0,3/11/2018,High
+496,402,,,,,,,,,985.0,Task Type 2,16.0,3/14/2018,Medium
+497,174,,,,,,,,,141.0,Task Type 3,39.0,3/13/2018,High
+498,174,,,,,,,,,356.0,Task Type 2,39.0,3/14/2018,High
+499,174,,,,,,,,,845.0,Task Type 1,19.0,3/14/2018,Medium
+500,188,,,,,,,,,143.0,Task Type 1,62.0,3/14/2018,High
+501,188,,,,,,,,,149.0,Task Type 2,36.0,3/12/2018,High
+502,188,,,,,,,,,353.0,Task Type 2,5.0,3/12/2018,Low
+503,188,,,,,,,,,507.0,Task Type 2,78.0,3/12/2018,High
+504,188,,,,,,,,,596.0,Task Type 1,88.0,3/12/2018,Medium
+505,188,,,,,,,,,842.0,Task Type 1,97.0,3/14/2018,Medium
+506,310,,,,,,,,,144.0,Task Type 1,14.0,3/11/2018,Medium
+507,310,,,,,,,,,676.0,Task Type 3,78.0,3/14/2018,Low
+508,310,,,,,,,,,686.0,Task Type 3,68.0,3/13/2018,Medium
+509,168,,,,,,,,,145.0,Task Type 2,54.0,3/13/2018,Low
+510,168,,,,,,,,,793.0,Task Type 3,91.0,3/14/2018,Low
+511,168,,,,,,,,,948.0,Task Type 1,11.0,3/13/2018,Medium
+512,449,,,,,,,,,146.0,Task Type 3,94.0,3/11/2018,Medium
+513,449,,,,,,,,,957.0,Task Type 3,10.0,3/12/2018,Medium
+514,257,,,,,,,,,147.0,Task Type 3,32.0,3/11/2018,Low
+515,257,,,,,,,,,314.0,Task Type 2,92.0,3/14/2018,High
+516,257,,,,,,,,,562.0,Task Type 2,20.0,3/12/2018,High
+517,282,,,,,,,,,153.0,Task Type 3,26.0,3/14/2018,High
+518,282,,,,,,,,,553.0,Task Type 1,40.0,3/12/2018,Low
+519,282,,,,,,,,,737.0,Task Type 3,45.0,3/11/2018,Medium
+520,199,,,,,,,,,155.0,Task Type 2,28.0,3/14/2018,Medium
+521,295,,,,,,,,,156.0,Task Type 3,2.0,3/14/2018,High
+522,295,,,,,,,,,254.0,Task Type 2,61.0,3/13/2018,Low
+523,295,,,,,,,,,865.0,Task Type 1,92.0,3/13/2018,Medium
+524,109,,,,,,,,,159.0,Task Type 3,50.0,3/12/2018,Low
+525,107,,,,,,,,,160.0,Task Type 3,73.0,3/13/2018,High
+526,107,,,,,,,,,316.0,Task Type 2,80.0,3/14/2018,High
+527,107,,,,,,,,,560.0,Task Type 2,90.0,3/11/2018,Medium
+528,107,,,,,,,,,835.0,Task Type 2,41.0,3/12/2018,Medium
+529,107,,,,,,,,,995.0,Task Type 1,19.0,3/13/2018,High
+530,421,,,,,,,,,162.0,Task Type 3,67.0,3/12/2018,Low
+531,421,,,,,,,,,183.0,Task Type 2,91.0,3/11/2018,Low
+532,421,,,,,,,,,401.0,Task Type 2,27.0,3/13/2018,High
+533,421,,,,,,,,,413.0,Task Type 1,58.0,3/13/2018,Low
+534,421,,,,,,,,,427.0,Task Type 1,33.0,3/14/2018,Medium
+535,330,,,,,,,,,164.0,Task Type 1,79.0,3/12/2018,Medium
+536,330,,,,,,,,,925.0,Task Type 3,60.0,3/11/2018,High
+537,108,,,,,,,,,165.0,Task Type 3,7.0,3/11/2018,Low
+538,108,,,,,,,,,200.0,Task Type 3,80.0,3/12/2018,Medium
+539,479,,,,,,,,,168.0,Task Type 2,54.0,3/14/2018,Low
+540,479,,,,,,,,,171.0,Task Type 2,78.0,3/12/2018,High
+541,479,,,,,,,,,223.0,Task Type 3,69.0,3/13/2018,High
+542,479,,,,,,,,,559.0,Task Type 3,68.0,3/11/2018,Low
+543,479,,,,,,,,,721.0,Task Type 2,23.0,3/14/2018,Medium
+544,479,,,,,,,,,840.0,Task Type 1,88.0,3/14/2018,Low
+545,388,,,,,,,,,169.0,Task Type 2,31.0,3/11/2018,High
+546,388,,,,,,,,,537.0,Task Type 2,54.0,3/14/2018,Medium
+547,388,,,,,,,,,755.0,Task Type 1,75.0,3/12/2018,Low
+548,164,,,,,,,,,174.0,Task Type 1,29.0,3/12/2018,Low
+549,315,,,,,,,,,176.0,Task Type 3,52.0,3/11/2018,Low
+550,315,,,,,,,,,561.0,Task Type 2,29.0,3/11/2018,High
+551,460,,,,,,,,,179.0,Task Type 1,34.0,3/11/2018,Low
+552,460,,,,,,,,,252.0,Task Type 1,87.0,3/12/2018,High
+553,460,,,,,,,,,305.0,Task Type 2,21.0,3/12/2018,High
+554,460,,,,,,,,,876.0,Task Type 3,82.0,3/12/2018,Low
+555,348,,,,,,,,,180.0,Task Type 3,27.0,3/14/2018,Medium
+556,348,,,,,,,,,416.0,Task Type 2,85.0,3/12/2018,Low
+557,348,,,,,,,,,751.0,Task Type 2,64.0,3/14/2018,Medium
+558,442,,,,,,,,,181.0,Task Type 3,41.0,3/11/2018,High
+559,280,,,,,,,,,182.0,Task Type 1,30.0,3/12/2018,High
+560,280,,,,,,,,,702.0,Task Type 1,11.0,3/13/2018,Low
+561,427,,,,,,,,,184.0,Task Type 1,13.0,3/12/2018,Medium
+562,427,,,,,,,,,449.0,Task Type 1,42.0,3/11/2018,High
+563,427,,,,,,,,,465.0,Task Type 3,11.0,3/14/2018,High
+564,427,,,,,,,,,504.0,Task Type 2,20.0,3/11/2018,High
+565,427,,,,,,,,,509.0,Task Type 1,71.0,3/13/2018,Medium
+566,427,,,,,,,,,915.0,Task Type 1,84.0,3/12/2018,Low
+567,266,,,,,,,,,185.0,Task Type 2,93.0,3/11/2018,Low
+568,266,,,,,,,,,651.0,Task Type 2,97.0,3/14/2018,Low
+569,364,,,,,,,,,186.0,Task Type 1,58.0,3/12/2018,Low
+570,364,,,,,,,,,215.0,Task Type 1,27.0,3/11/2018,Low
+571,364,,,,,,,,,608.0,Task Type 3,58.0,3/14/2018,High
+572,364,,,,,,,,,806.0,Task Type 2,50.0,3/11/2018,High
+573,138,,,,,,,,,187.0,Task Type 1,92.0,3/11/2018,High
+574,138,,,,,,,,,458.0,Task Type 3,79.0,3/11/2018,Low
+575,308,,,,,,,,,188.0,Task Type 3,30.0,3/13/2018,Low
+576,308,,,,,,,,,218.0,Task Type 3,87.0,3/12/2018,High
+577,308,,,,,,,,,281.0,Task Type 1,71.0,3/13/2018,Low
+578,308,,,,,,,,,344.0,Task Type 3,20.0,3/14/2018,Low
+579,308,,,,,,,,,871.0,Task Type 1,45.0,3/13/2018,Medium
+580,147,,,,,,,,,189.0,Task Type 1,94.0,3/12/2018,Low
+581,147,,,,,,,,,198.0,Task Type 2,68.0,3/12/2018,Medium
+582,147,,,,,,,,,298.0,Task Type 2,59.0,3/13/2018,High
+583,317,,,,,,,,,190.0,Task Type 3,86.0,3/11/2018,High
+584,317,,,,,,,,,813.0,Task Type 1,50.0,3/13/2018,Low
+585,404,,,,,,,,,191.0,Task Type 2,3.0,3/14/2018,High
+586,404,,,,,,,,,780.0,Task Type 1,7.0,3/11/2018,Low
+587,117,,,,,,,,,192.0,Task Type 1,86.0,3/14/2018,High
+588,117,,,,,,,,,335.0,Task Type 1,87.0,3/11/2018,Low
+589,355,,,,,,,,,193.0,Task Type 1,55.0,3/13/2018,Low
+590,355,,,,,,,,,872.0,Task Type 1,41.0,3/12/2018,Low
+591,212,,,,,,,,,194.0,Task Type 1,44.0,3/13/2018,Medium
+592,212,,,,,,,,,496.0,Task Type 2,79.0,3/13/2018,Low
+593,212,,,,,,,,,989.0,Task Type 3,88.0,3/12/2018,Low
+594,208,,,,,,,,,195.0,Task Type 3,93.0,3/12/2018,High
+595,208,,,,,,,,,848.0,Task Type 3,49.0,3/12/2018,High
+596,113,,,,,,,,,197.0,Task Type 3,2.0,3/13/2018,High
+597,113,,,,,,,,,620.0,Task Type 1,6.0,3/13/2018,Medium
+598,113,,,,,,,,,656.0,Task Type 2,70.0,3/14/2018,Low
+599,420,,,,,,,,,204.0,Task Type 2,79.0,3/11/2018,Low
+600,275,,,,,,,,,207.0,Task Type 1,41.0,3/14/2018,Medium
+601,275,,,,,,,,,211.0,Task Type 3,43.0,3/13/2018,High
+602,275,,,,,,,,,682.0,Task Type 1,46.0,3/11/2018,Medium
+603,424,,,,,,,,,209.0,Task Type 3,8.0,3/13/2018,High
+604,139,,,,,,,,,210.0,Task Type 1,23.0,3/11/2018,Low
+605,139,,,,,,,,,741.0,Task Type 2,8.0,3/13/2018,Low
+606,139,,,,,,,,,748.0,Task Type 3,55.0,3/14/2018,Low
+607,286,,,,,,,,,214.0,Task Type 1,31.0,3/13/2018,Low
+608,286,,,,,,,,,882.0,Task Type 2,40.0,3/13/2018,High
+609,461,,,,,,,,,216.0,Task Type 1,75.0,3/14/2018,Medium
+610,461,,,,,,,,,980.0,Task Type 3,74.0,3/14/2018,Low
+611,462,,,,,,,,,219.0,Task Type 3,69.0,3/11/2018,Low
+612,462,,,,,,,,,382.0,Task Type 1,95.0,3/11/2018,High
+613,140,,,,,,,,,220.0,Task Type 1,34.0,3/12/2018,High
+614,140,,,,,,,,,366.0,Task Type 2,59.0,3/13/2018,High
+615,453,,,,,,,,,221.0,Task Type 1,14.0,3/11/2018,Medium
+616,453,,,,,,,,,493.0,Task Type 3,38.0,3/11/2018,High
+617,465,,,,,,,,,222.0,Task Type 3,91.0,3/11/2018,Low
+618,465,,,,,,,,,789.0,Task Type 3,10.0,3/11/2018,Medium
+619,465,,,,,,,,,852.0,Task Type 3,87.0,3/12/2018,Medium
+620,458,,,,,,,,,224.0,Task Type 3,39.0,3/14/2018,High
+621,458,,,,,,,,,377.0,Task Type 1,30.0,3/14/2018,Low
+622,458,,,,,,,,,984.0,Task Type 2,51.0,3/11/2018,Medium
+623,246,,,,,,,,,225.0,Task Type 2,56.0,3/14/2018,High
+624,246,,,,,,,,,405.0,Task Type 1,52.0,3/14/2018,Medium
+625,246,,,,,,,,,574.0,Task Type 3,9.0,3/12/2018,Medium
+626,246,,,,,,,,,633.0,Task Type 3,44.0,3/12/2018,Low
+627,246,,,,,,,,,849.0,Task Type 3,37.0,3/12/2018,High
+628,318,,,,,,,,,227.0,Task Type 1,83.0,3/14/2018,Low
+629,318,,,,,,,,,797.0,Task Type 3,48.0,3/11/2018,Low
+630,228,,,,,,,,,228.0,Task Type 2,44.0,3/11/2018,Low
+631,228,,,,,,,,,428.0,Task Type 1,57.0,3/12/2018,High
+632,228,,,,,,,,,464.0,Task Type 1,3.0,3/13/2018,Medium
+633,324,,,,,,,,,229.0,Task Type 2,61.0,3/14/2018,Medium
+634,324,,,,,,,,,326.0,Task Type 2,86.0,3/14/2018,Low
+635,161,,,,,,,,,232.0,Task Type 1,96.0,3/12/2018,Low
+636,161,,,,,,,,,543.0,Task Type 3,92.0,3/13/2018,Medium
+637,432,,,,,,,,,233.0,Task Type 2,25.0,3/12/2018,High
+638,432,,,,,,,,,605.0,Task Type 2,45.0,3/12/2018,High
+639,359,,,,,,,,,234.0,Task Type 3,66.0,3/13/2018,Low
+640,403,,,,,,,,,236.0,Task Type 3,70.0,3/13/2018,Low
+641,258,,,,,,,,,237.0,Task Type 2,88.0,3/12/2018,High
+642,417,,,,,,,,,238.0,Task Type 1,53.0,3/13/2018,High
+643,176,,,,,,,,,240.0,Task Type 2,52.0,3/13/2018,Medium
+644,176,,,,,,,,,426.0,Task Type 1,5.0,3/11/2018,Medium
+645,176,,,,,,,,,569.0,Task Type 2,96.0,3/14/2018,High
+646,176,,,,,,,,,717.0,Task Type 3,23.0,3/11/2018,Low
+647,176,,,,,,,,,857.0,Task Type 1,13.0,3/14/2018,Low
+648,497,,,,,,,,,241.0,Task Type 2,60.0,3/12/2018,High
+649,497,,,,,,,,,443.0,Task Type 2,29.0,3/13/2018,High
+650,497,,,,,,,,,588.0,Task Type 2,26.0,3/12/2018,High
+651,497,,,,,,,,,661.0,Task Type 1,42.0,3/13/2018,Medium
+652,223,,,,,,,,,242.0,Task Type 2,35.0,3/11/2018,Medium
+653,413,,,,,,,,,243.0,Task Type 1,84.0,3/13/2018,Medium
+654,413,,,,,,,,,355.0,Task Type 1,28.0,3/13/2018,Medium
+655,413,,,,,,,,,844.0,Task Type 1,69.0,3/11/2018,Low
+656,314,,,,,,,,,244.0,Task Type 3,39.0,3/13/2018,High
+657,496,,,,,,,,,250.0,Task Type 2,27.0,3/12/2018,Medium
+658,496,,,,,,,,,591.0,Task Type 3,35.0,3/11/2018,Low
+659,170,,,,,,,,,251.0,Task Type 1,32.0,3/14/2018,Medium
+660,170,,,,,,,,,960.0,Task Type 2,60.0,3/12/2018,Medium
+661,222,,,,,,,,,253.0,Task Type 1,35.0,3/12/2018,Medium
+662,222,,,,,,,,,274.0,Task Type 1,68.0,3/12/2018,High
+663,222,,,,,,,,,765.0,Task Type 1,56.0,3/13/2018,Medium
+664,222,,,,,,,,,875.0,Task Type 1,3.0,3/14/2018,Medium
+665,285,,,,,,,,,256.0,Task Type 3,21.0,3/13/2018,High
+666,285,,,,,,,,,647.0,Task Type 3,69.0,3/11/2018,Low
+667,285,,,,,,,,,778.0,Task Type 1,48.0,3/12/2018,Low
+668,357,,,,,,,,,257.0,Task Type 3,43.0,3/12/2018,Medium
+669,357,,,,,,,,,359.0,Task Type 3,99.0,3/14/2018,Medium
+670,431,,,,,,,,,258.0,Task Type 3,100.0,3/12/2018,High
+671,431,,,,,,,,,892.0,Task Type 2,37.0,3/14/2018,Medium
+672,353,,,,,,,,,259.0,Task Type 3,43.0,3/13/2018,Low
+673,438,,,,,,,,,262.0,Task Type 3,91.0,3/13/2018,High
+674,335,,,,,,,,,263.0,Task Type 3,5.0,3/13/2018,Medium
+675,335,,,,,,,,,690.0,Task Type 1,13.0,3/12/2018,Medium
+676,472,,,,,,,,,267.0,Task Type 3,69.0,3/13/2018,High
+677,472,,,,,,,,,320.0,Task Type 1,63.0,3/12/2018,High
+678,192,,,,,,,,,269.0,Task Type 3,17.0,3/12/2018,High
+679,192,,,,,,,,,485.0,Task Type 2,28.0,3/11/2018,High
+680,284,,,,,,,,,271.0,Task Type 1,64.0,3/11/2018,Medium
+681,284,,,,,,,,,539.0,Task Type 2,8.0,3/13/2018,Medium
+682,201,,,,,,,,,272.0,Task Type 1,57.0,3/11/2018,High
+683,201,,,,,,,,,634.0,Task Type 3,1.0,3/12/2018,Low
+684,201,,,,,,,,,830.0,Task Type 2,46.0,3/14/2018,Low
+685,203,,,,,,,,,276.0,Task Type 1,13.0,3/11/2018,High
+686,203,,,,,,,,,554.0,Task Type 2,87.0,3/13/2018,Low
+687,121,,,,,,,,,277.0,Task Type 2,69.0,3/11/2018,High
+688,121,,,,,,,,,959.0,Task Type 1,20.0,3/11/2018,High
+689,294,,,,,,,,,279.0,Task Type 2,53.0,3/12/2018,Low
+690,294,,,,,,,,,967.0,Task Type 3,55.0,3/14/2018,Medium
+691,326,,,,,,,,,287.0,Task Type 2,8.0,3/13/2018,Medium
+692,326,,,,,,,,,319.0,Task Type 3,90.0,3/14/2018,Medium
+693,326,,,,,,,,,352.0,Task Type 1,53.0,3/13/2018,Low
+694,260,,,,,,,,,290.0,Task Type 2,24.0,3/11/2018,Medium
+695,260,,,,,,,,,552.0,Task Type 2,89.0,3/14/2018,High
+696,260,,,,,,,,,716.0,Task Type 1,77.0,3/14/2018,High
+697,306,,,,,,,,,291.0,Task Type 3,1.0,3/11/2018,Medium
+698,306,,,,,,,,,822.0,Task Type 1,82.0,3/12/2018,Medium
+699,137,,,,,,,,,295.0,Task Type 3,42.0,3/14/2018,High
+700,137,,,,,,,,,920.0,Task Type 1,81.0,3/12/2018,High
+701,464,,,,,,,,,296.0,Task Type 3,64.0,3/14/2018,High
+702,377,,,,,,,,,297.0,Task Type 3,1.0,3/14/2018,High
+703,377,,,,,,,,,983.0,Task Type 3,92.0,3/11/2018,Medium
+704,338,,,,,,,,,300.0,Task Type 2,49.0,3/13/2018,Medium
+705,338,,,,,,,,,436.0,Task Type 3,2.0,3/12/2018,Medium
+706,338,,,,,,,,,612.0,Task Type 3,42.0,3/11/2018,Medium
+707,440,,,,,,,,,301.0,Task Type 1,30.0,3/12/2018,Medium
+708,440,,,,,,,,,701.0,Task Type 1,46.0,3/13/2018,High
+709,440,,,,,,,,,923.0,Task Type 3,36.0,3/11/2018,High
+710,492,,,,,,,,,304.0,Task Type 1,94.0,3/11/2018,High
+711,492,,,,,,,,,328.0,Task Type 2,93.0,3/11/2018,High
+712,110,,,,,,,,,311.0,Task Type 2,62.0,3/13/2018,Low
+713,110,,,,,,,,,683.0,Task Type 2,44.0,3/13/2018,High
+714,468,,,,,,,,,312.0,Task Type 3,67.0,3/14/2018,High
+715,468,,,,,,,,,327.0,Task Type 3,37.0,3/11/2018,High
+716,468,,,,,,,,,640.0,Task Type 3,79.0,3/12/2018,High
+717,148,,,,,,,,,315.0,Task Type 2,13.0,3/12/2018,Medium
+718,225,,,,,,,,,322.0,Task Type 2,87.0,3/11/2018,High
+719,401,,,,,,,,,323.0,Task Type 2,50.0,3/12/2018,Medium
+720,401,,,,,,,,,568.0,Task Type 1,79.0,3/11/2018,High
+721,401,,,,,,,,,853.0,Task Type 2,21.0,3/13/2018,Low
+722,134,,,,,,,,,329.0,Task Type 2,26.0,3/14/2018,Medium
+723,134,,,,,,,,,346.0,Task Type 2,83.0,3/14/2018,Low
+724,134,,,,,,,,,500.0,Task Type 1,80.0,3/13/2018,Medium
+725,134,,,,,,,,,658.0,Task Type 1,91.0,3/12/2018,Low
+726,134,,,,,,,,,823.0,Task Type 2,75.0,3/11/2018,Medium
+727,298,,,,,,,,,331.0,Task Type 2,53.0,3/13/2018,Low
+728,298,,,,,,,,,886.0,Task Type 3,19.0,3/12/2018,Low
+729,105,,,,,,,,,332.0,Task Type 3,90.0,3/13/2018,High
+730,105,,,,,,,,,389.0,Task Type 2,8.0,3/12/2018,Medium
+731,154,,,,,,,,,336.0,Task Type 2,52.0,3/11/2018,Medium
+732,154,,,,,,,,,534.0,Task Type 2,88.0,3/12/2018,Medium
+733,154,,,,,,,,,788.0,Task Type 2,33.0,3/11/2018,Medium
+734,154,,,,,,,,,815.0,Task Type 3,88.0,3/13/2018,High
+735,154,,,,,,,,,953.0,Task Type 2,36.0,3/14/2018,High
+736,279,,,,,,,,,338.0,Task Type 1,15.0,3/14/2018,Medium
+737,279,,,,,,,,,404.0,Task Type 3,36.0,3/12/2018,High
+738,279,,,,,,,,,740.0,Task Type 2,23.0,3/13/2018,High
+739,141,,,,,,,,,340.0,Task Type 3,75.0,3/14/2018,Low
+740,141,,,,,,,,,727.0,Task Type 2,47.0,3/13/2018,Medium
+741,240,,,,,,,,,341.0,Task Type 1,82.0,3/13/2018,Medium
+742,393,,,,,,,,,345.0,Task Type 3,75.0,3/12/2018,Medium
+743,393,,,,,,,,,621.0,Task Type 1,66.0,3/12/2018,Low
+744,171,,,,,,,,,347.0,Task Type 2,9.0,3/11/2018,Low
+745,171,,,,,,,,,388.0,Task Type 1,15.0,3/14/2018,High
+746,171,,,,,,,,,392.0,Task Type 3,31.0,3/14/2018,Low
+747,171,,,,,,,,,624.0,Task Type 2,86.0,3/11/2018,Low
+748,171,,,,,,,,,854.0,Task Type 2,46.0,3/12/2018,Low
+749,383,,,,,,,,,348.0,Task Type 1,75.0,3/12/2018,High
+750,336,,,,,,,,,354.0,Task Type 2,66.0,3/12/2018,Medium
+751,336,,,,,,,,,381.0,Task Type 1,32.0,3/13/2018,Medium
+752,336,,,,,,,,,387.0,Task Type 3,86.0,3/11/2018,High
+753,336,,,,,,,,,893.0,Task Type 3,53.0,3/13/2018,High
+754,189,,,,,,,,,360.0,Task Type 3,93.0,3/14/2018,Medium
+755,189,,,,,,,,,467.0,Task Type 2,53.0,3/12/2018,Medium
+756,189,,,,,,,,,705.0,Task Type 3,88.0,3/11/2018,Low
+757,189,,,,,,,,,754.0,Task Type 2,63.0,3/11/2018,Medium
+758,189,,,,,,,,,890.0,Task Type 3,50.0,3/12/2018,Low
+759,290,,,,,,,,,361.0,Task Type 2,76.0,3/11/2018,High
+760,290,,,,,,,,,623.0,Task Type 1,12.0,3/13/2018,Medium
+761,290,,,,,,,,,767.0,Task Type 1,92.0,3/11/2018,High
+762,151,,,,,,,,,365.0,Task Type 3,5.0,3/13/2018,High
+763,151,,,,,,,,,521.0,Task Type 1,100.0,3/13/2018,Low
+764,151,,,,,,,,,657.0,Task Type 1,87.0,3/13/2018,High
+765,151,,,,,,,,,973.0,Task Type 1,39.0,3/12/2018,Low
+766,151,,,,,,,,,975.0,Task Type 3,43.0,3/12/2018,High
+767,268,,,,,,,,,368.0,Task Type 3,98.0,3/11/2018,Low
+768,268,,,,,,,,,390.0,Task Type 1,41.0,3/14/2018,Medium
+769,268,,,,,,,,,471.0,Task Type 1,81.0,3/11/2018,Low
+770,268,,,,,,,,,775.0,Task Type 3,44.0,3/13/2018,Low
+771,428,,,,,,,,,371.0,Task Type 3,80.0,3/11/2018,Low
+772,428,,,,,,,,,396.0,Task Type 3,54.0,3/13/2018,High
+773,143,,,,,,,,,373.0,Task Type 2,45.0,3/13/2018,Low
+774,143,,,,,,,,,931.0,Task Type 2,32.0,3/13/2018,Low
+775,446,,,,,,,,,376.0,Task Type 3,99.0,3/11/2018,Medium
+776,340,,,,,,,,,378.0,Task Type 3,43.0,3/14/2018,Medium
+777,340,,,,,,,,,600.0,Task Type 2,67.0,3/12/2018,Medium
+778,491,,,,,,,,,379.0,Task Type 2,15.0,3/14/2018,High
+779,124,,,,,,,,,383.0,Task Type 3,85.0,3/14/2018,High
+780,124,,,,,,,,,828.0,Task Type 1,72.0,3/14/2018,Low
+781,150,,,,,,,,,385.0,Task Type 2,88.0,3/14/2018,High
+782,150,,,,,,,,,505.0,Task Type 2,95.0,3/11/2018,High
+783,150,,,,,,,,,662.0,Task Type 1,52.0,3/14/2018,Low
+784,441,,,,,,,,,386.0,Task Type 3,52.0,3/14/2018,High
+785,441,,,,,,,,,445.0,Task Type 3,53.0,3/14/2018,High
+786,500,,,,,,,,,393.0,Task Type 3,85.0,3/12/2018,High
+787,500,,,,,,,,,412.0,Task Type 2,7.0,3/14/2018,High
+788,500,,,,,,,,,991.0,Task Type 3,86.0,3/11/2018,Low
+789,276,,,,,,,,,395.0,Task Type 3,33.0,3/11/2018,Low
+790,276,,,,,,,,,952.0,Task Type 3,92.0,3/13/2018,Low
+791,167,,,,,,,,,398.0,Task Type 1,95.0,3/13/2018,High
+792,277,,,,,,,,,399.0,Task Type 2,60.0,3/14/2018,Low
+793,184,,,,,,,,,406.0,Task Type 3,13.0,3/14/2018,Medium
+794,470,,,,,,,,,407.0,Task Type 2,39.0,3/13/2018,Low
+795,256,,,,,,,,,409.0,Task Type 2,98.0,3/13/2018,Low
+796,256,,,,,,,,,592.0,Task Type 2,13.0,3/11/2018,High
+797,476,,,,,,,,,410.0,Task Type 2,98.0,3/14/2018,Low
+798,476,,,,,,,,,930.0,Task Type 1,58.0,3/14/2018,Medium
+799,387,,,,,,,,,411.0,Task Type 3,5.0,3/11/2018,High
+800,436,,,,,,,,,414.0,Task Type 2,89.0,3/13/2018,High
+801,267,,,,,,,,,415.0,Task Type 2,1.0,3/13/2018,Low
+802,181,,,,,,,,,418.0,Task Type 1,53.0,3/12/2018,High
+803,454,,,,,,,,,419.0,Task Type 1,36.0,3/11/2018,Low
+804,198,,,,,,,,,421.0,Task Type 1,44.0,3/12/2018,High
+805,198,,,,,,,,,522.0,Task Type 3,84.0,3/12/2018,High
+806,198,,,,,,,,,599.0,Task Type 3,2.0,3/14/2018,High
+807,397,,,,,,,,,422.0,Task Type 2,26.0,3/11/2018,High
+808,397,,,,,,,,,785.0,Task Type 1,8.0,3/13/2018,Low
+809,398,,,,,,,,,424.0,Task Type 2,5.0,3/12/2018,Low
+810,398,,,,,,,,,873.0,Task Type 1,71.0,3/13/2018,Low
+811,398,,,,,,,,,966.0,Task Type 2,72.0,3/11/2018,High
+812,185,,,,,,,,,425.0,Task Type 1,50.0,3/12/2018,High
+813,185,,,,,,,,,906.0,Task Type 2,33.0,3/12/2018,Low
+814,374,,,,,,,,,431.0,Task Type 1,56.0,3/14/2018,Medium
+815,490,,,,,,,,,432.0,Task Type 2,57.0,3/14/2018,Low
+816,179,,,,,,,,,437.0,Task Type 1,68.0,3/12/2018,High
+817,250,,,,,,,,,439.0,Task Type 3,92.0,3/12/2018,Low
+818,250,,,,,,,,,722.0,Task Type 1,7.0,3/11/2018,Medium
+819,375,,,,,,,,,444.0,Task Type 2,87.0,3/11/2018,Low
+820,375,,,,,,,,,644.0,Task Type 2,92.0,3/12/2018,High
+821,130,,,,,,,,,446.0,Task Type 3,64.0,3/14/2018,High
+822,130,,,,,,,,,613.0,Task Type 3,9.0,3/13/2018,High
+823,122,,,,,,,,,447.0,Task Type 1,98.0,3/11/2018,High
+824,111,,,,,,,,,450.0,Task Type 3,10.0,3/13/2018,Low
+825,305,,,,,,,,,451.0,Task Type 1,23.0,3/14/2018,High
+826,305,,,,,,,,,697.0,Task Type 2,52.0,3/13/2018,Low
+827,146,,,,,,,,,452.0,Task Type 3,7.0,3/11/2018,Medium
+828,300,,,,,,,,,453.0,Task Type 2,33.0,3/14/2018,Medium
+829,300,,,,,,,,,609.0,Task Type 3,74.0,3/13/2018,Low
+830,300,,,,,,,,,712.0,Task Type 2,24.0,3/11/2018,High
+831,300,,,,,,,,,928.0,Task Type 2,91.0,3/14/2018,Low
+832,300,,,,,,,,,969.0,Task Type 2,69.0,3/13/2018,Medium
+833,261,,,,,,,,,455.0,Task Type 3,26.0,3/12/2018,Low
+834,261,,,,,,,,,527.0,Task Type 2,82.0,3/14/2018,Low
+835,297,,,,,,,,,456.0,Task Type 3,95.0,3/12/2018,Low
+836,297,,,,,,,,,627.0,Task Type 2,24.0,3/13/2018,Medium
+837,297,,,,,,,,,884.0,Task Type 3,36.0,3/14/2018,Low
+838,219,,,,,,,,,459.0,Task Type 2,4.0,3/11/2018,High
+839,219,,,,,,,,,607.0,Task Type 3,62.0,3/11/2018,Low
+840,219,,,,,,,,,641.0,Task Type 1,91.0,3/14/2018,Low
+841,292,,,,,,,,,462.0,Task Type 1,35.0,3/14/2018,Medium
+842,292,,,,,,,,,730.0,Task Type 3,55.0,3/12/2018,Medium
+843,343,,,,,,,,,468.0,Task Type 2,24.0,3/14/2018,High
+844,218,,,,,,,,,474.0,Task Type 1,12.0,3/14/2018,High
+845,218,,,,,,,,,503.0,Task Type 3,56.0,3/14/2018,High
+846,218,,,,,,,,,669.0,Task Type 1,41.0,3/14/2018,High
+847,218,,,,,,,,,796.0,Task Type 1,1.0,3/13/2018,Medium
+848,416,,,,,,,,,475.0,Task Type 2,60.0,3/14/2018,High
+849,416,,,,,,,,,773.0,Task Type 2,41.0,3/11/2018,Medium
+850,448,,,,,,,,,476.0,Task Type 3,9.0,3/13/2018,Low
+851,399,,,,,,,,,478.0,Task Type 3,34.0,3/13/2018,High
+852,399,,,,,,,,,734.0,Task Type 3,49.0,3/13/2018,Low
+853,399,,,,,,,,,759.0,Task Type 1,2.0,3/11/2018,Medium
+854,419,,,,,,,,,480.0,Task Type 1,79.0,3/11/2018,Low
+855,419,,,,,,,,,746.0,Task Type 2,40.0,3/11/2018,Medium
+856,419,,,,,,,,,881.0,Task Type 1,36.0,3/12/2018,Low
+857,445,,,,,,,,,483.0,Task Type 2,49.0,3/13/2018,Low
+858,445,,,,,,,,,968.0,Task Type 2,52.0,3/12/2018,Low
+859,361,,,,,,,,,490.0,Task Type 2,80.0,3/13/2018,Medium
+860,322,,,,,,,,,492.0,Task Type 1,78.0,3/14/2018,Medium
+861,311,,,,,,,,,495.0,Task Type 1,42.0,3/13/2018,Low
+862,360,,,,,,,,,497.0,Task Type 3,58.0,3/11/2018,Medium
+863,360,,,,,,,,,978.0,Task Type 1,97.0,3/14/2018,Low
+864,296,,,,,,,,,501.0,Task Type 1,83.0,3/12/2018,Low
+865,296,,,,,,,,,914.0,Task Type 3,46.0,3/11/2018,High
+866,433,,,,,,,,,502.0,Task Type 1,8.0,3/12/2018,High
+867,433,,,,,,,,,921.0,Task Type 2,32.0,3/14/2018,Medium
+868,477,,,,,,,,,513.0,Task Type 1,10.0,3/12/2018,Medium
+869,477,,,,,,,,,965.0,Task Type 3,28.0,3/14/2018,Low
+870,320,,,,,,,,,516.0,Task Type 2,80.0,3/12/2018,Low
+871,320,,,,,,,,,604.0,Task Type 1,20.0,3/13/2018,Medium
+872,320,,,,,,,,,631.0,Task Type 2,11.0,3/11/2018,High
+873,217,,,,,,,,,517.0,Task Type 3,86.0,3/14/2018,Medium
+874,186,,,,,,,,,518.0,Task Type 2,26.0,3/13/2018,Low
+875,430,,,,,,,,,520.0,Task Type 2,18.0,3/13/2018,High
+876,430,,,,,,,,,667.0,Task Type 2,50.0,3/11/2018,Low
+877,430,,,,,,,,,946.0,Task Type 2,84.0,3/13/2018,Low
+878,263,,,,,,,,,524.0,Task Type 1,63.0,3/12/2018,Low
+879,319,,,,,,,,,526.0,Task Type 3,2.0,3/13/2018,Low
+880,319,,,,,,,,,696.0,Task Type 3,100.0,3/14/2018,High
+881,319,,,,,,,,,919.0,Task Type 3,72.0,3/14/2018,Low
+882,193,,,,,,,,,528.0,Task Type 2,80.0,3/14/2018,High
+883,278,,,,,,,,,533.0,Task Type 3,60.0,3/12/2018,Low
+884,390,,,,,,,,,536.0,Task Type 3,11.0,3/14/2018,Medium
+885,390,,,,,,,,,862.0,Task Type 1,2.0,3/14/2018,Medium
+886,220,,,,,,,,,538.0,Task Type 2,58.0,3/14/2018,Medium
+887,220,,,,,,,,,564.0,Task Type 1,19.0,3/13/2018,High
+888,220,,,,,,,,,617.0,Task Type 3,83.0,3/11/2018,High
+889,220,,,,,,,,,655.0,Task Type 3,55.0,3/14/2018,Low
+890,221,,,,,,,,,540.0,Task Type 1,37.0,3/12/2018,Low
+891,221,,,,,,,,,638.0,Task Type 1,37.0,3/11/2018,Low
+892,221,,,,,,,,,650.0,Task Type 3,16.0,3/11/2018,High
+893,197,,,,,,,,,544.0,Task Type 3,7.0,3/13/2018,High
+894,242,,,,,,,,,546.0,Task Type 2,41.0,3/14/2018,Medium
+895,410,,,,,,,,,548.0,Task Type 3,49.0,3/13/2018,Medium
+896,410,,,,,,,,,594.0,Task Type 2,83.0,3/12/2018,High
+897,410,,,,,,,,,630.0,Task Type 1,48.0,3/11/2018,Medium
+898,410,,,,,,,,,733.0,Task Type 3,4.0,3/13/2018,Medium
+899,410,,,,,,,,,801.0,Task Type 3,53.0,3/14/2018,Medium
+900,283,,,,,,,,,549.0,Task Type 2,23.0,3/12/2018,Medium
+901,173,,,,,,,,,555.0,Task Type 1,79.0,3/13/2018,Low
+902,173,,,,,,,,,615.0,Task Type 3,97.0,3/14/2018,Medium
+903,173,,,,,,,,,636.0,Task Type 2,47.0,3/12/2018,High
+904,215,,,,,,,,,556.0,Task Type 3,77.0,3/13/2018,Medium
+905,215,,,,,,,,,814.0,Task Type 1,55.0,3/13/2018,Low
+906,230,,,,,,,,,565.0,Task Type 2,46.0,3/14/2018,Low
+907,230,,,,,,,,,861.0,Task Type 3,29.0,3/13/2018,Medium
+908,158,,,,,,,,,567.0,Task Type 2,9.0,3/11/2018,Low
+909,158,,,,,,,,,771.0,Task Type 1,14.0,3/12/2018,Medium
+910,155,,,,,,,,,570.0,Task Type 1,24.0,3/14/2018,Medium
+911,289,,,,,,,,,575.0,Task Type 3,2.0,3/11/2018,High
+912,291,,,,,,,,,577.0,Task Type 3,23.0,3/12/2018,Low
+913,291,,,,,,,,,645.0,Task Type 1,70.0,3/11/2018,Medium
+914,337,,,,,,,,,579.0,Task Type 1,83.0,3/13/2018,Low
+915,337,,,,,,,,,803.0,Task Type 2,86.0,3/14/2018,Medium
+916,409,,,,,,,,,581.0,Task Type 3,17.0,3/11/2018,Medium
+917,409,,,,,,,,,831.0,Task Type 3,17.0,3/11/2018,Low
+918,216,,,,,,,,,584.0,Task Type 2,71.0,3/11/2018,High
+919,131,,,,,,,,,587.0,Task Type 1,69.0,3/13/2018,High
+920,418,,,,,,,,,597.0,Task Type 1,74.0,3/13/2018,Medium
+921,418,,,,,,,,,836.0,Task Type 1,95.0,3/13/2018,Low
+922,166,,,,,,,,,598.0,Task Type 2,43.0,3/14/2018,Medium
+923,166,,,,,,,,,866.0,Task Type 1,2.0,3/13/2018,Low
+924,166,,,,,,,,,922.0,Task Type 1,50.0,3/13/2018,Low
+925,331,,,,,,,,,611.0,Task Type 3,58.0,3/14/2018,Low
+926,331,,,,,,,,,992.0,Task Type 3,70.0,3/13/2018,Medium
+927,487,,,,,,,,,614.0,Task Type 2,86.0,3/12/2018,Medium
+928,304,,,,,,,,,616.0,Task Type 1,38.0,3/13/2018,Medium
+929,187,,,,,,,,,618.0,Task Type 1,85.0,3/12/2018,High
+930,187,,,,,,,,,664.0,Task Type 3,17.0,3/11/2018,Low
+931,112,,,,,,,,,622.0,Task Type 1,19.0,3/12/2018,Medium
+932,287,,,,,,,,,632.0,Task Type 3,19.0,3/13/2018,Medium
+933,301,,,,,,,,,646.0,Task Type 2,35.0,3/12/2018,Medium
+934,301,,,,,,,,,943.0,Task Type 2,73.0,3/13/2018,Low
+935,425,,,,,,,,,653.0,Task Type 1,81.0,3/13/2018,Low
+936,312,,,,,,,,,663.0,Task Type 1,83.0,3/12/2018,Low
+937,262,,,,,,,,,668.0,Task Type 3,94.0,3/11/2018,Low
+938,262,,,,,,,,,749.0,Task Type 1,70.0,3/11/2018,Medium
+939,224,,,,,,,,,673.0,Task Type 1,42.0,3/12/2018,Medium
+940,224,,,,,,,,,860.0,Task Type 3,62.0,3/12/2018,High
+941,157,,,,,,,,,674.0,Task Type 3,23.0,3/13/2018,High
+942,157,,,,,,,,,878.0,Task Type 1,80.0,3/11/2018,Medium
+943,380,,,,,,,,,675.0,Task Type 2,86.0,3/12/2018,Low
+944,241,,,,,,,,,677.0,Task Type 3,34.0,3/13/2018,Low
+945,241,,,,,,,,,736.0,Task Type 1,80.0,3/12/2018,High
+946,396,,,,,,,,,679.0,Task Type 2,3.0,3/13/2018,High
+947,396,,,,,,,,,986.0,Task Type 3,7.0,3/13/2018,High
+948,323,,,,,,,,,681.0,Task Type 2,31.0,3/12/2018,High
+949,182,,,,,,,,,684.0,Task Type 1,40.0,3/11/2018,Medium
+950,272,,,,,,,,,687.0,Task Type 1,98.0,3/13/2018,Low
+951,272,,,,,,,,,743.0,Task Type 2,22.0,3/12/2018,Low
+952,272,,,,,,,,,981.0,Task Type 2,87.0,3/12/2018,Low
+953,272,,,,,,,,,982.0,Task Type 1,57.0,3/11/2018,Low
+954,475,,,,,,,,,692.0,Task Type 3,57.0,3/13/2018,High
+955,426,,,,,,,,,693.0,Task Type 2,12.0,3/12/2018,Low
+956,426,,,,,,,,,694.0,Task Type 2,15.0,3/11/2018,Medium
+957,368,,,,,,,,,704.0,Task Type 3,43.0,3/12/2018,High
+958,499,,,,,,,,,706.0,Task Type 1,5.0,3/12/2018,Medium
+959,119,,,,,,,,,710.0,Task Type 1,39.0,3/14/2018,High
+960,119,,,,,,,,,784.0,Task Type 3,76.0,3/11/2018,Medium
+961,395,,,,,,,,,714.0,Task Type 2,11.0,3/14/2018,High
+962,202,,,,,,,,,715.0,Task Type 1,3.0,3/14/2018,Low
+963,202,,,,,,,,,764.0,Task Type 2,61.0,3/11/2018,Medium
+964,371,,,,,,,,,723.0,Task Type 2,40.0,3/13/2018,Medium
+965,371,,,,,,,,,786.0,Task Type 3,8.0,3/12/2018,High
+966,273,,,,,,,,,728.0,Task Type 2,71.0,3/13/2018,Low
+967,273,,,,,,,,,947.0,Task Type 3,31.0,3/14/2018,High
+968,386,,,,,,,,,735.0,Task Type 3,35.0,3/11/2018,Medium
+969,486,,,,,,,,,744.0,Task Type 1,33.0,3/13/2018,High
+970,414,,,,,,,,,747.0,Task Type 3,79.0,3/13/2018,Medium
+971,254,,,,,,,,,753.0,Task Type 1,71.0,3/11/2018,Medium
+972,439,,,,,,,,,760.0,Task Type 3,58.0,3/11/2018,High
+973,439,,,,,,,,,794.0,Task Type 1,20.0,3/11/2018,Low
+974,439,,,,,,,,,896.0,Task Type 3,17.0,3/11/2018,Low
+975,439,,,,,,,,,904.0,Task Type 2,72.0,3/11/2018,Low
+976,439,,,,,,,,,963.0,Task Type 3,29.0,3/11/2018,Medium
+977,358,,,,,,,,,761.0,Task Type 2,17.0,3/14/2018,Low
+978,358,,,,,,,,,779.0,Task Type 2,81.0,3/11/2018,High
+979,466,,,,,,,,,762.0,Task Type 3,89.0,3/14/2018,Low
+980,481,,,,,,,,,777.0,Task Type 1,85.0,3/12/2018,Low
+981,264,,,,,,,,,795.0,Task Type 3,46.0,3/13/2018,Medium
+982,264,,,,,,,,,998.0,Task Type 2,88.0,3/12/2018,High
+983,498,,,,,,,,,799.0,Task Type 3,42.0,3/13/2018,High
+984,175,,,,,,,,,804.0,Task Type 2,57.0,3/14/2018,High
+985,175,,,,,,,,,824.0,Task Type 2,91.0,3/13/2018,High
+986,271,,,,,,,,,807.0,Task Type 3,86.0,3/11/2018,High
+987,135,,,,,,,,,808.0,Task Type 1,13.0,3/14/2018,Medium
+988,156,,,,,,,,,810.0,Task Type 2,90.0,3/13/2018,Medium
+989,385,,,,,,,,,818.0,Task Type 1,15.0,3/11/2018,High
+990,385,,,,,,,,,913.0,Task Type 3,31.0,3/12/2018,Medium
+991,483,,,,,,,,,820.0,Task Type 2,89.0,3/12/2018,Medium
+992,483,,,,,,,,,987.0,Task Type 1,90.0,3/11/2018,Low
+993,339,,,,,,,,,827.0,Task Type 3,12.0,3/11/2018,High
+994,363,,,,,,,,,837.0,Task Type 1,98.0,3/13/2018,Medium
+995,227,,,,,,,,,841.0,Task Type 3,77.0,3/13/2018,Medium
+996,231,,,,,,,,,850.0,Task Type 1,5.0,3/12/2018,High
+997,101,,,,,,,,,856.0,Task Type 3,82.0,3/12/2018,Low
+998,101,,,,,,,,,900.0,Task Type 1,1.0,3/11/2018,High
+999,493,,,,,,,,,877.0,Task Type 1,2.0,3/11/2018,High
+1000,237,,,,,,,,,885.0,Task Type 3,97.0,3/13/2018,High
+1001,434,,,,,,,,,889.0,Task Type 1,21.0,3/14/2018,Low
+1002,194,,,,,,,,,891.0,Task Type 2,73.0,3/13/2018,Low
+1003,248,,,,,,,,,897.0,Task Type 3,55.0,3/13/2018,Low
+1004,473,,,,,,,,,905.0,Task Type 2,41.0,3/12/2018,Low
+1005,378,,,,,,,,,908.0,Task Type 3,96.0,3/13/2018,High
+1006,126,,,,,,,,,909.0,Task Type 2,85.0,3/13/2018,High
+1007,106,,,,,,,,,910.0,Task Type 2,25.0,3/13/2018,Medium
+1008,106,,,,,,,,,912.0,Task Type 1,36.0,3/14/2018,Medium
+1009,120,,,,,,,,,911.0,Task Type 2,56.0,3/12/2018,Low
+1010,293,,,,,,,,,918.0,Task Type 2,28.0,3/11/2018,High
+1011,255,,,,,,,,,932.0,Task Type 1,72.0,3/12/2018,Low
+1012,239,,,,,,,,,949.0,Task Type 2,29.0,3/12/2018,Low
+1013,376,,,,,,,,,954.0,Task Type 1,56.0,3/13/2018,Medium
+1014,376,,,,,,,,,977.0,Task Type 3,36.0,3/11/2018,High
+1015,405,,,,,,,,,956.0,Task Type 2,78.0,3/11/2018,High
+1016,484,,,,,,,,,961.0,Task Type 3,96.0,3/14/2018,Medium
+1017,243,,,,,,,,,962.0,Task Type 3,40.0,3/12/2018,High
+1018,459,,,,,,,,,972.0,Task Type 1,87.0,3/12/2018,High
