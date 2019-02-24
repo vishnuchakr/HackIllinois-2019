@@ -6,6 +6,7 @@ import numpy as np
 def get_priority_matrix(filename, employee_id):
     patient_df = pd.read_csv(filename)
     patient_df = patient_df[patient_df['employee_id'] == employee_id]
+    patient_df = patient_df.dropna(subset=['full_address'])
 
     patient_df['priority_value'] = patient_df['prioirty_level'].apply(get_priority_value)
     patient_matrix = np.matrix(patient_df['priority_value'])
