@@ -14,7 +14,7 @@ def create_distance_callback(dist_matrix):
 def optimal_route():
     
     distance_array = get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 55)
-    '''
+    
     tsp_size = len(distance_array)
     num_routes = 1
     depot = 0
@@ -25,10 +25,30 @@ def optimal_route():
         search_parameters = pywrapcp.RoutingModel.DefaultSearchParameters()
 
     # Create the distance callback.
-        dist_callback = create_distance_callback(dist_matrix)
-        routing.SetArcCostEvaluatorOfAllVehicles(dist_callback)
+    dist_callback = create_distance_callback(dist_matrix)
+    routing.SetArcCostEvaluatorOfAllVehicles(dist_callback)
 
     # Solve the problem.
-        assignment = routing.SolveWithParameters(search_parameters)
-    '''
+    assignment = routing.SolveWithParameters(search_parameters)
+
+    if assignment:
+        # Solution distance.
+        print "Total distance: " + str(assignment.ObjectiveValue()) + " miles\n"
+        # Display the solution.
+        # Only one route here; otherwise iterate from 0 to routing.vehicles() - 1
+        route_number = 0
+        index = routing.Start(route_number) # Index of the variable for the starting node.
+        route = ''
+        while not routing.IsEnd(index):
+            # Convert variable indices to node indices in the displayed route.
+            route += str(city_names[routing.IndexToNode(index)]) + ' -> '
+            index = assignment.Value(routing.NextVar(index))
+        route += str(city_names[routing.IndexToNode(index)])
+        print "Route:\n\n" + route
+    else:
+      print 'No solution found.'
+
+    else:
+        print 'Specify an instance greater than 0.'
+    
     print(distance_array)
