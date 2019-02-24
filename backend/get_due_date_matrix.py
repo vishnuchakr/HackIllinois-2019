@@ -15,8 +15,10 @@ def sigmoid(x, derivative=False):
 def get_due_date_matrix(filename, employee_id):
 	patient_df = pd.read_csv(filename)
 	patient_df = patient_df[patient_df['employee_id'] == employee_id]
+	patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+
 	patient_df = patient_df.dropna(subset=['full_address'])
-	
+
 	patient_df['datetime'] = pd.to_datetime(patient_df['due_date'])
 
 	min_date = min(patient_df['datetime'])
