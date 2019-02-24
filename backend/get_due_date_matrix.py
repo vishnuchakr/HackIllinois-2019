@@ -31,7 +31,7 @@ def get_due_date_matrix(filename, employee_id):
 
 	due_date_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
 
-	due_date_matrix = sigmoid(due_date_matrix)
+	#due_date_matrix = sigmoid(due_date_matrix)
 
 	return due_date_matrix
 
