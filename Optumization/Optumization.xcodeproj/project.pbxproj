@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0098995E2222099200846592 /* DailyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995D2222099200846592 /* DailyMapViewController.swift */; };
 		00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995F222209B400846592 /* CurrentPatientViewController.swift */; };
-		0098996422220C6400846592 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098996322220C6400846592 /* APIKEY.swift */; };
 		A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC22222068600E9747C /* AppDelegate.swift */; };
 		A31C9DC52222068600E9747C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC42222068600E9747C /* ViewController.swift */; };
 		A31C9DC82222068600E9747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DC62222068600E9747C /* Main.storyboard */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		0098995D2222099200846592 /* DailyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMapViewController.swift; sourceTree = "<group>"; };
 		0098995F222209B400846592 /* CurrentPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPatientViewController.swift; sourceTree = "<group>"; };
-		0098996322220C6400846592 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
 		441DDA9949F65268801DDD58 /* libPods-Optumization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Optumization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.debug.xcconfig"; sourceTree = "<group>"; };
 		A31C9DBF2222068600E9747C /* Optumization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optumization.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +107,6 @@
 		A31C9DB62222068600E9747C = {
 			isa = PBXGroup;
 			children = (
-				0098996322220C6400846592 /* APIKEY.swift */,
 				A31C9DC12222068600E9747C /* Optumization */,
 				A31C9DD92222068900E9747C /* OptumizationTests */,
 				A31C9DE42222068900E9747C /* OptumizationUITests */,
@@ -317,7 +314,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -326,7 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -336,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0098996422220C6400846592 /* APIKEY.swift in Sources */,
 				A31C9DC52222068600E9747C /* ViewController.swift in Sources */,
 				00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */,
 				A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */,
