@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0098995E2222099200846592 /* DailyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995D2222099200846592 /* DailyMapViewController.swift */; };
+		0098995E2222099200846592 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995D2222099200846592 /* MapScreen.swift */; };
 		00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995F222209B400846592 /* CurrentPatientViewController.swift */; };
-		0098996422220C6400846592 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098996322220C6400846592 /* APIKEY.swift */; };
+		00989966222236F700846592 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00989965222236F700846592 /* APIKEY.swift */; };
+		00CEF6C722224D3B003D26D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CEF6C622224D3B003D26D1 /* MapKit.framework */; };
 		A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC22222068600E9747C /* AppDelegate.swift */; };
 		A31C9DC52222068600E9747C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC42222068600E9747C /* ViewController.swift */; };
 		A31C9DC82222068600E9747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DC62222068600E9747C /* Main.storyboard */; };
@@ -40,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0098995D2222099200846592 /* DailyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMapViewController.swift; sourceTree = "<group>"; };
+		0098995D2222099200846592 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		0098995F222209B400846592 /* CurrentPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPatientViewController.swift; sourceTree = "<group>"; };
-		0098996322220C6400846592 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
+		00989965222236F700846592 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
+		00CEF6C622224D3B003D26D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		441DDA9949F65268801DDD58 /* libPods-Optumization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Optumization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AF729C92EFB7804612D6E6 /* Pods-Optumization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optumization/Pods-Optumization.debug.xcconfig"; sourceTree = "<group>"; };
 		A31C9DBF2222068600E9747C /* Optumization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optumization.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CEF6C722224D3B003D26D1 /* MapKit.framework in Frameworks */,
 				F442C9CE4E324CD3F4808A76 /* libPods-Optumization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		87E492F94CE4860DD317389C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00CEF6C622224D3B003D26D1 /* MapKit.framework */,
 				441DDA9949F65268801DDD58 /* libPods-Optumization.a */,
 			);
 			name = Frameworks;
@@ -109,7 +113,7 @@
 		A31C9DB62222068600E9747C = {
 			isa = PBXGroup;
 			children = (
-				0098996322220C6400846592 /* APIKEY.swift */,
+				00989965222236F700846592 /* APIKEY.swift */,
 				A31C9DC12222068600E9747C /* Optumization */,
 				A31C9DD92222068900E9747C /* OptumizationTests */,
 				A31C9DE42222068900E9747C /* OptumizationUITests */,
@@ -139,7 +143,7 @@
 				A31C9DCE2222068900E9747C /* LaunchScreen.storyboard */,
 				A31C9DD12222068900E9747C /* Info.plist */,
 				A31C9DC92222068600E9747C /* Optumization.xcdatamodeld */,
-				0098995D2222099200846592 /* DailyMapViewController.swift */,
+				0098995D2222099200846592 /* MapScreen.swift */,
 				0098995F222209B400846592 /* CurrentPatientViewController.swift */,
 				A31C9DF52222101F00E9747C /* Constants.swift */,
 			);
@@ -234,6 +238,11 @@
 				TargetAttributes = {
 					A31C9DBE2222068600E9747C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					A31C9DD52222068900E9747C = {
 						CreatedOnToolsVersion = 10.1;
@@ -338,12 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0098996422220C6400846592 /* APIKEY.swift in Sources */,
 				A31C9DC52222068600E9747C /* ViewController.swift in Sources */,
 				00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */,
+				00989966222236F700846592 /* APIKEY.swift in Sources */,
 				A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */,
 				A31C9DCB2222068600E9747C /* Optumization.xcdatamodeld in Sources */,
-				0098995E2222099200846592 /* DailyMapViewController.swift in Sources */,
+				0098995E2222099200846592 /* MapScreen.swift in Sources */,
 				A31C9DF62222101F00E9747C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZCK3HW2C2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = Optumization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HackIllinois.Optumization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -540,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZCK3HW2C2;
+				DEVELOPMENT_TEAM = W4385PKG7X;
 				INFOPLIST_FILE = Optumization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HackIllinois.Optumization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
