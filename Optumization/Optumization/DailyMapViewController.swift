@@ -7,24 +7,27 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class DailyMapViewController: UIViewController {
-
+    
+    @IBOutlet fileprivate weak var mapView: GMSMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let camera = GMSCameraPosition.camera(withLatitude: 37.36, longitude: -122.0, zoom: 6.0)
+        mapView.camera = camera
+        showMarker(position: camera.target)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func showMarker(position: CLLocationCoordinate2D){
+        let marker = GMSMarker()
+        marker.position = position
+        marker.title = "Palo Alto"
+        marker.snippet = "San Francisco"
+        marker.map = mapView
     }
-    */
-
+}
+extension ViewController: GMSMapViewDelegate{
+    
 }
