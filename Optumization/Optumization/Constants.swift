@@ -33,7 +33,7 @@ public class Constants {
     }
     
     
-    public static func getAddresses(id:Int) -> [[String : String]] {
+    public static func getAddresses(id:String) -> [[String : String]] {
         let temp = ["hi": "hi"]
         guard let url = URL(string: Constants.url + "/getMapData/\(id)" ) else { return [temp] }
 //        let url =

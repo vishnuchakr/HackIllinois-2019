@@ -5,128 +5,143 @@
 //  Created by Fiza Goyal on 2/23/19.
 //  Copyright © 2019 HackIllinois. All rights reserved.
 //
-
 import UIKit
 import MapKit
-import CoreLocation
 
-class MapScreen: UIViewController {
+class customPin: NSObject, MKAnnotation {
+    var coordinate: CLLocationCoordinate2D
+    var title: String?
+    var subtitle: String?
+    
+    init(pinTitle:String, pinSubTitle:String, location:CLLocationCoordinate2D) {
+        self.title = pinTitle
+        self.subtitle = pinSubTitle
+        self.coordinate = location
+    }
+}
+
+class MapScreen: UIViewController, MKMapViewDelegate {
     
     var employeeId = 0
+    var sourceLocation = CLLocationCoordinate2D(latitude:40.1138 , longitude: -88.2249)
     
+//            let destinationLocation = CLLocationCoordinate2D(latitude:40.1059 , longitude: -88.2273)
     @IBOutlet weak var mapView: MKMapView!
-    
-    let locationManager = CLLocationManager()
-    let regionInMeters: Double = 10000
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapView.showsUserLocation = true
-        checkLocationServices()
-    }
-    
-    
-    func setupLocationManager() {
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-    }
-    
-    
-    func centerViewOnUserLocation() {
-        if let location = locationManager.location?.coordinate {
-            let region = MKCoordinateRegion.init(center: location, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
-            mapView.setRegion(region, animated: true)
-        }
-    }
-    
-    
-    func checkLocationServices() {
-        if CLLocationManager.locationServicesEnabled() {
-            setupLocationManager()
-            checkLocationAuthorization()
-        } else {
-            // Show alert letting the user know they have to turn this on.
-        }
-    }
-    
-    func getDirections() {
-        guard let location = locationManager.location?.coordinate else {
-            //TODO: Inform user we don't have their current location
-            return
-        }
+        // Do any additional setup after loading the view, typically from a nib.
+
+
         
-        let request = createDirectionsRequest(from: location)
-        let directions = MKDirections(request: request)
-        //resetMapView(withNew: directions)
+        //set delegate for mapview
+        self.mapView.delegate = self
         
-        directions.calculate { [unowned self] (response, error) in
-            //TODO: Handle error if needed
-            guard let response = response else { return } //TODO: Show response not available in an alert
-            
-            for route in response.routes {
-                self.mapView.addOverlay(route.polyline)
-                self.mapView.setVisibleMapRect(route.polyline.boundingMapRect, animated: true)
+        getAddresses(id: employeeId)
+        
+        
+    }
+    
+    func createPathBetweenTwoPoints(sourceLocation: CLLocationCoordinate2D, destinationLocation: CLLocationCoordinate2D, sourceLocationName: String, destinationLocationName: String) {
+        
+        
+        let sourcePin = customPin(pinTitle: sourceLocationName, pinSubTitle: "", location: sourceLocation)
+        let destinationPin = customPin(pinTitle: destinationLocationName, pinSubTitle: "", location: destinationLocation)
+        self.mapView.addAnnotation(sourcePin)
+        self.mapView.addAnnotation(destinationPin)
+        
+        let sourcePlaceMark = MKPlacemark(coordinate: sourceLocation)
+        let destinationPlaceMark = MKPlacemark(coordinate: destinationLocation)
+        
+        let directionRequest = MKDirections.Request()
+        directionRequest.source = MKMapItem(placemark: sourcePlaceMark)
+        directionRequest.destination = MKMapItem(placemark: destinationPlaceMark)
+        directionRequest.transportType = .automobile
+        
+        let directions = MKDirections(request: directionRequest)
+        directions.calculate { (response, error) in
+            guard let directionResonse = response else {
+                if let error = error {
+                    print("we have error getting directions==\(error.localizedDescription)")
+                }
+                return
             }
+            
+            let route = directionResonse.routes[0]
+            self.mapView.addOverlay(route.polyline, level: .aboveRoads)
+            
+            let rect = route.polyline.boundingMapRect
+            self.mapView.setRegion(MKCoordinateRegion(rect), animated: true)
         }
     }
     
-    func createDirectionsRequest(from coordinate: CLLocationCoordinate2D) -> MKDirections.Request {
-        //this is where we change the next patient's location
-        let destinationCoordinate       = CLLocationCoordinate2D(latitude: -88.2249, longitude: 40.1138)
-        let startingCoordinate = CLLocationCoordinate2D(latitude: -88.2, longitude: 40.1)
-        let startingLocation            = MKPlacemark(coordinate: startingCoordinate)
-        let destination                 = MKPlacemark(coordinate: destinationCoordinate)
+    public func getAddresses(id:Int) -> [[String : String]] {
+        let temp = ["hi": "hi"]
+        guard let url = URL(string: Constants.url + "/getMapData/\(id)" ) else { return [temp] }
+        //        let url =
         
-        let request                     = MKDirections.Request()
-        request.source                  = MKMapItem(placemark: startingLocation)
-        request.destination             = MKMapItem(placemark: destination)
-        request.transportType           = .automobile
-        request.requestsAlternateRoutes = true
+        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+            print(error)
+            guard let data = data else { return }
+            do {
+                let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
+                //                print(json)
+                guard let jsonResponse = json as? [[String: String]] else{
+                    print("unexpected form of json data")
+                    return
+                }
+                
+                json
+                for song in jsonResponse {
+                    
+                    var retLocation:CLLocationCoordinate2D!
+                    
+                    let geoCoder = CLGeocoder()
+                    geoCoder.geocodeAddressString(song.values.first!) { (placemarks, error) in
+                        guard
+                            let placemarks = placemarks,
+                            let location = placemarks.first?.location
+                            else {
+                                // handle no location found
+                                return
+                        }
+                        retLocation = location.coordinate
+                        
+                        print(song.keys.first!)
+                        print(song.values.first!)
+                        print(retLocation!)
+                        print()
+                        //CALLMAPPING FUNCTION HERE
+                        
+                        
+                        
+                        self.createPathBetweenTwoPoints(sourceLocation: self.sourceLocation, destinationLocation: retLocation, sourceLocationName: song.keys.first!, destinationLocationName: "")
+                        self.sourceLocation = retLocation
+                        
+                        // Use your location
+                    }
+                    
+                }
+            } catch {
+                
+            }
+            }.resume()
         
-        return request
+        
+        return [temp]
     }
     
-    
-    func checkLocationAuthorization() {
-        switch CLLocationManager.authorizationStatus() {
-        case .authorizedWhenInUse:
-            mapView.showsUserLocation = true
-            centerViewOnUserLocation()
-            locationManager.startUpdatingLocation()
-            break
-        case .denied:
-            // Show alert instructing them how to turn on permissions
-            break
-        case .notDetermined:
-            locationManager.requestWhenInUseAuthorization()
-        case .restricted:
-            // Show an alert letting them know what's up
-            break
-        case .authorizedAlways:
-            break
-        }
-    }
-}
-
-
-extension MapScreen: CLLocationManagerDelegate {
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else { return }
-        let region = MKCoordinateRegion.init(center: location.coordinate, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
-        mapView.setRegion(region, animated: true)
-    }
-    
-    
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        checkLocationAuthorization()
-    }
-    
+    //MARK:- MapKit delegates
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        let renderer = MKPolylineRenderer(overlay: overlay as! MKPolyline)
-        renderer.strokeColor = .blue
-        
+        let renderer = MKPolylineRenderer(overlay: overlay)
+        renderer.strokeColor = UIColor(red:1.00, green:0.38, blue:0.00, alpha:1.0)
+        renderer.lineWidth = 4.0
         return renderer
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
 }
-
