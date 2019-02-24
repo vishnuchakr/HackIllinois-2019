@@ -8,6 +8,13 @@ import pandas as pd
 import numpy as np
 
 
+PATIENT_TASK_DATA_FILEPATH = 'CSV/PATIENT_TASK_DATA.csv'
+EMPLOYEE_DATA_FILEPATH = 'CSV/EMPLOYEE_DATA.csv'
+
+DISTANCE_WEIGHT = 0.7
+DUE_DATE_WEIGHT = 0.2
+PRIORITY_WEIGHT = 0.1
+
 # Distance callback
 def create_distance_callback(dist_matrix):
   # Create a callback to calculate distances between cities.
@@ -18,19 +25,19 @@ def create_distance_callback(dist_matrix):
   return distance_callback 
 
 def optimal_route(employee_id): 
-    patient_df = pd.read_csv('CSV/PATIENT_TASK_DATA.csv')
+    patient_df = pd.read_csv(PATIENT_TASK_DATA_FILEPATH)
     patient_df = patient_df[patient_df['employee_id'] == employee_id]
     patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
     patient_df = patient_df.dropna(subset=['full_address'])
 
-    employee_df = pd.read_csv('CSV/EMPLOYEE_DATA.csv')
+    employee_df = pd.read_csv(EMPLOYEE_DATA_FILEPATH)
     employee_df = employee_df[employee_df['employee_id'] == employee_id]
 
     employee_df['full_address'] = '201 N Goodwin Ave, Urbana, IL'
 
-    distance_matrix = get_distance_matrix.get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
-    priority_matrix = get_priority_matrix.get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
-    due_date_matrix = get_due_date_matrix.get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
+    distance_matrix = get_distance_matrix.get_distance_matrix(PATIENT_TASK_DATA_FILEPATH, employee_id)
+    priority_matrix = get_priority_matrix.get_priority_matrix(PATIENT_TASK_DATA_FILEPATH, employee_id)
+    due_date_matrix = get_due_date_matrix.get_due_date_matrix(PATIENT_TASK_DATA_FILEPATH, employee_id)
 
     distance_matrix = sigmoid(distance_matrix)
     priority_matrix = sigmoid(priority_matrix)
@@ -43,7 +50,7 @@ def optimal_route(employee_id):
     addresses = list(employee_df['full_address']) + list(patient_df['full_address'])
     names = list(employee_df['last_name']) + list(patient_df['last_name'])
 
-    weighted_matrix = np.array(.33*distance_matrix + .33*priority_matrix + .33*due_date_matrix)
+    weighted_matrix = np.array(DISTANCE_WEIGHT * distance_matrix + DUE_DATE_WEIGHT * due_date_matrix + PRIORITY_WEIGHT * priority_matrix)
 
     for i in range(0, len(weighted_matrix)):
         weighted_matrix[i,i] = 0
