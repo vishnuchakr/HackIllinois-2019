@@ -2,8 +2,11 @@ from ortools.constraint_solver import pywrapcp
 from ortools.constraint_solver import routing_enums_pb2
 import get_distance_matrix 
 import get_priority_matrix
+import get_due_date_matrix
+import math
 import pandas as pd
-import scipy as sc
+import numpy as np
+
 
 # Distance callback
 def create_distance_callback(dist_matrix):
@@ -15,15 +18,22 @@ def create_distance_callback(dist_matrix):
   return distance_callback 
 
 def optimal_route(employee_id): 
-    distance_matrix = get_distance_matrix.get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 55)
-    priority_matrix = get_priority_matrix.get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', 55)
-    distance_matrix = sc.expit(distance_matrix) 
-    priority_matrix = sc.expit(priority_matrix)
+    distance_matrix = get_distance_matrix.get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
+    priority_matrix = get_priority_matrix.get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
+    due_date_matrix = get_due_date_matrix.get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
 
-    weighted_matrix = .33*distance_matrix + .33*priority_matrix
+    distance_matrix = sigmoid(distance_matrix)
+    priority_matrix = sigmoid(priority_matrix)
+    due_date_matrix = sigmoid(due_date_matrix)
+
+    print(distance_matrix.shape)
+    print(priority_matrix.shape)
+    print(due_date_matrix.shape)
+
+    weighted_matrix = .33*distance_matrix + .33*priority_matrix + .33*due_date_matrix 
     
-    tsp_size = len(distance_matrix)
-    num_routes = 1
+    tsp_size = len(weighted_matrix)
+    num_routes = 1 
     depot = 0
         
     # Create routing model
@@ -64,3 +74,7 @@ def optimal_route(employee_id):
     else:
         print('Specify an instance greater than 0.')
     
+def sigmoid(x):
+  return 1 / (1 + np.exp(-x))
+
+optimal_route(55)

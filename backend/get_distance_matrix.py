@@ -14,7 +14,7 @@ def get_distance_matrix(filename, employee_id):
 
 	api_key = open("api_key.txt","r")
 	# print(api_key)
-	gmaps = googlemaps.Client(key=api_key)
+	gmaps = googlemaps.Client(key='AIzaSyCMXIb1mA-lbNBYRW0CiQB7bDG6uJ4SY8g')
 	now = datetime.now()
 
 	dist_matrix = gmaps.distance_matrix(origins=patient_df['full_address'], destinations=patient_df['full_address'], mode='driving', departure_time=now)
