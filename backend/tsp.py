@@ -23,6 +23,11 @@ def optimal_route(employee_id):
     patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
     patient_df = patient_df.dropna(subset=['full_address'])
 
+    employee_df = pd.read_csv('CSV/EMPLOYEE_DATA.csv')
+    employee_df = employee_df[employee_df['employee_id'] == employee_id]
+
+    employee_df['full_address'] = '201 N Goodwin Ave, Urbana, IL'
+
     distance_matrix = get_distance_matrix.get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
     priority_matrix = get_priority_matrix.get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
     due_date_matrix = get_due_date_matrix.get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
@@ -35,7 +40,8 @@ def optimal_route(employee_id):
     print(priority_matrix.shape)
     print(due_date_matrix.shape)
 
-    addresses = list(patient_df['full_address'])
+    addresses = list(employee_df['full_address']) + list(patient_df['full_address'])
+    names = list(employee_df['last_name']) + list(patient_df['last_name'])
 
     weighted_matrix = np.array(.33*distance_matrix + .33*priority_matrix + .33*due_date_matrix)
 
@@ -76,9 +82,9 @@ def optimal_route(employee_id):
 
             while not routing.IsEnd(index):
                 # Convert variable indices to node indices in the displayed route.
-                route.append({list(patient_df['last_name'])[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
+                route.append({names[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
                 index = assignment.Value(routing.NextVar(index))
-            route.append({list(patient_df['last_name'])[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
+            route.append({names[routing.IndexToNode(index)] : addresses[routing.IndexToNode(index)]})
             # print("Route:\n\n" + route)
         else:
             print('No solution found.')
