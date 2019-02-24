@@ -9,9 +9,12 @@ def get_distance_matrix(filename, employee_id):
 	patient_df = pd.read_csv(filename)
 	patient_df = patient_df[patient_df['employee_id'] == employee_id]
 	patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+	patient_df = patient_df.dropna(subset=['full_address'])
+	print(patient_df)
 
-	# api_key = open("api_key.txt","r")
-	gmaps = googlemaps.Client(key='AIzaSyBqOYdq9KFQb9SCPz_A3A5TS6ILUD0f76k')
+	api_key = open("api_key.txt","r")
+	# print(api_key)
+	gmaps = googlemaps.Client(key='AIzaSyCMXIb1mA-lbNBYRW0CiQB7bDG6uJ4SY8g')
 	now = datetime.now()
 
 	dist_matrix = gmaps.distance_matrix(origins=patient_df['full_address'], destinations=patient_df['full_address'], mode='driving', departure_time=now)
@@ -31,4 +34,4 @@ def get_distance_matrix(filename, employee_id):
 	return array
 
 
-print(get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 55))
+# print(get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', 1))

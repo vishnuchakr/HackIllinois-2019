@@ -1,6 +1,7 @@
 from ortools.constraint_solver import pywrapcp
 from ortools.constraint_solver import routing_enums_pb2
-import routeOptimizer.py
+from backend import get_distance_matrix
+import pandas as pd
 
 # Distance callback
 def create_distance_callback(dist_matrix):
@@ -12,10 +13,16 @@ def create_distance_callback(dist_matrix):
   return distance_callback
 
 def optimal_route():
+
+    patient_df = pd.read_csv('backend/CSV/PATIENT_TASK_DATA.csv')
+    patient_df = patient_df[patient_df['employee_id'] == 1]
+    patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+
+    city_names = list(patient_df['full_address'])
     
-    distance_array = routeOptimizer.get_distance_matrix('PATIENT_TASK_DATA.csv', 55)
+    dist_matrix = get_distance_matrix.get_distance_matrix('backend/CSV/PATIENT_TASK_DATA.csv', 1)
     
-    tsp_size = len(distance_array)
+    tsp_size = len(dist_matrix)
     num_routes = 1
     depot = 0
         
@@ -51,4 +58,6 @@ def optimal_route():
     else:
         print('Specify an instance greater than 0.')
     
-    print(distance_array)
+    print(dist_matrix)
+
+optimal_route()
