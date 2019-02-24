@@ -8,3 +8,9 @@
 //
 
 import Foundation
+
+
+public class APIKEY {
+    
+    public static var APIKEY = ""
+}
