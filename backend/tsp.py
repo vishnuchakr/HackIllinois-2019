@@ -18,6 +18,11 @@ def create_distance_callback(dist_matrix):
   return distance_callback 
 
 def optimal_route(employee_id): 
+    patient_df = pd.read_csv('CSV/PATIENT_TASK_DATA.csv')
+    patient_df = patient_df[patient_df['employee_id'] == employee_id]
+    patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+    patient_df = patient_df.dropna(subset=['full_address'])
+
     distance_matrix = get_distance_matrix.get_distance_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
     priority_matrix = get_priority_matrix.get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
     due_date_matrix = get_due_date_matrix.get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', employee_id)
@@ -30,7 +35,17 @@ def optimal_route(employee_id):
     print(priority_matrix.shape)
     print(due_date_matrix.shape)
 
-    weighted_matrix = .33*distance_matrix + .33*priority_matrix + .33*due_date_matrix 
+    addresses = list(patient_df['full_address'])
+
+    weighted_matrix = np.array(.33*distance_matrix + .33*priority_matrix + .33*due_date_matrix)
+
+    for i in range(0, len(weighted_matrix)):
+        weighted_matrix[i,i] = 0
+
+    print(distance_matrix)
+    print(type(distance_matrix))
+    print(weighted_matrix)
+    print(type(weighted_matrix))
     
     tsp_size = len(weighted_matrix)
     num_routes = 1 
@@ -57,16 +72,13 @@ def optimal_route(employee_id):
             index = routing.Start(route_number) # Index of the variable for the starting node.
             route = ''
 
-            patient_df = pd.read_csv('CSV/PATIENT_TASK_DATA.csv')
-            patient_df = patient_df[patient_df['employee_id'] == employee_id]
-            patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
             print(type(patient_df))
 
             while not routing.IsEnd(index):
                 # Convert variable indices to node indices in the displayed route.
-                route += str(patient_df['full_address'][routing.IndexToNode(index)]) + ' -> '
+                route += str(addresses[routing.IndexToNode(index)]) + ' -> '
                 index = assignment.Value(routing.NextVar(index))
-            route += str(patient_df['full_address'][routing.IndexToNode(index)])
+            route += str(addresses[routing.IndexToNode(index)])
             print("Route:\n\n" + route)
         else:
             print('No solution found.')
