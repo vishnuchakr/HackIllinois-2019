@@ -10,8 +10,8 @@ def get_distance_matrix(filename, employee_id):
 	patient_df = patient_df[patient_df['employee_id'] == employee_id]
 	patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
 
-	api_key = open("api_key.txt","r")
-	gmaps = googlemaps.Client(key=api_key)
+	# api_key = open("api_key.txt","r")
+	gmaps = googlemaps.Client(key='AIzaSyBqOYdq9KFQb9SCPz_A3A5TS6ILUD0f76k')
 	now = datetime.now()
 
 	dist_matrix = gmaps.distance_matrix(origins=patient_df['full_address'], destinations=patient_df['full_address'], mode='driving', departure_time=now)
