@@ -28,12 +28,14 @@ def optimal_route(employee_id):
     patient_df = pd.read_csv(PATIENT_TASK_DATA_FILEPATH)
     patient_df = patient_df[patient_df['employee_id'] == employee_id]
     patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
+    patient_df['name'] = patient_df['last_name'] + ', ' + patient_df['first_name']
     patient_df = patient_df.dropna(subset=['full_address'])
 
     employee_df = pd.read_csv(EMPLOYEE_DATA_FILEPATH)
     employee_df = employee_df[employee_df['employee_id'] == employee_id]
 
     employee_df['full_address'] = '201 N Goodwin Ave, Urbana, IL'
+    employee_df['name'] = employee_df['last_name'] + ', ' + employee_df['first_name']
 
     distance_matrix = get_distance_matrix.get_distance_matrix(PATIENT_TASK_DATA_FILEPATH, employee_id)
     priority_matrix = get_priority_matrix.get_priority_matrix(PATIENT_TASK_DATA_FILEPATH, employee_id)
@@ -48,7 +50,7 @@ def optimal_route(employee_id):
     print(due_date_matrix.shape)
 
     addresses = list(employee_df['full_address']) + list(patient_df['full_address'])
-    names = list(employee_df['last_name']) + list(patient_df['last_name'])
+    names = list(employee_df['name']) + list(patient_df['name'])
 
     weighted_matrix = np.array(DISTANCE_WEIGHT * distance_matrix + DUE_DATE_WEIGHT * due_date_matrix + PRIORITY_WEIGHT * priority_matrix)
 
@@ -104,4 +106,4 @@ def optimal_route(employee_id):
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
 
-print(optimal_route(55))
+print(optimal_route(49))

@@ -30,15 +30,22 @@ def get_due_date_matrix(filename, employee_id):
 	patient_df['time_since_first'] = patient_df['time_since_first'] + 1
 
 	patient_matrix = [0] + list(patient_df['time_since_first'])
-	patient_matrix = np.matrix(patient_matrix)
 
-	due_date_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
+	patient_num = len(patient_matrix)
+
+	new_patient_matrix = np.array([patient_matrix,]*patient_num).transpose()
+
+	# print(new_patient_matrix)
+
+	# new_patient_matrix = np.matrix(patient_matrix)
+
+	# due_date_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
 
 	#due_date_matrix = sigmoid(due_date_matrix)
 
-	return due_date_matrix
+	return new_patient_matrix
 
 def days(td):
     return td.days
 
-# print(get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', 1))
+print(get_due_date_matrix('CSV/PATIENT_TASK_DATA.csv', 1))

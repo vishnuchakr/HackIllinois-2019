@@ -8,16 +8,28 @@ def get_priority_matrix(filename, employee_id):
     patient_df = patient_df[patient_df['employee_id'] == employee_id]
     patient_df['full_address'] = patient_df['street_address'] + ', ' + patient_df['city'] +  ', ' + patient_df['state']
     patient_df = patient_df.dropna(subset=['full_address'])
+    patient_num = len(patient_df['full_address']) + 1
 
     employee_df = pd.read_csv('CSV/EMPLOYEE_DATA.csv')
     employee_df = employee_df[employee_df['employee_id'] == employee_id]
 
     patient_df['priority_value'] = patient_df['prioirty_level'].apply(get_priority_value)
-    patient_matrix = [.3] + list(patient_df['priority_value'])
-    patient_matrix = np.matrix(patient_matrix)
+    patient_matrix = [0] + list(patient_df['priority_value'])
 
-    priority_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
-    return priority_matrix
+    new_patient_matrix = np.array([patient_matrix,]*patient_num).transpose()
+    print(type(new_patient_matrix))
+    # print(new_patient_matrix[0][0])
+
+    for i in range(0, patient_num):
+        new_patient_matrix[i,i] = 0.0
+
+    print(new_patient_matrix)
+    # patient_matrix = np.matrix(patient_matrix)
+
+    # priority_matrix = np.matmul(patient_matrix.transpose(), patient_matrix)
+
+    # return priority_matrix
+    return new_patient_matrix
 
 
 def get_priority_value(str):
@@ -30,3 +42,5 @@ def get_priority_value(str):
     elif str == 'High':
         return .3
 
+
+get_priority_matrix('CSV/PATIENT_TASK_DATA.csv', 55)
