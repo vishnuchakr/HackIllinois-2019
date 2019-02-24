@@ -11,6 +11,7 @@
 		00989960222209B400846592 /* CurrentPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098995F222209B400846592 /* CurrentPatientViewController.swift */; };
 		00989966222236F700846592 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00989965222236F700846592 /* APIKEY.swift */; };
 		00CEF6C722224D3B003D26D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CEF6C622224D3B003D26D1 /* MapKit.framework */; };
+		10EC32C440B2D9F78A5C2CB9 /* libPods-Optumization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA1378435FC3D1B5A9C859 /* libPods-Optumization.a */; };
 		A31C9DC32222068600E9747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC22222068600E9747C /* AppDelegate.swift */; };
 		A31C9DC52222068600E9747C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C9DC42222068600E9747C /* ViewController.swift */; };
 		A31C9DC82222068600E9747C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31C9DC62222068600E9747C /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		0098995F222209B400846592 /* CurrentPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPatientViewController.swift; sourceTree = "<group>"; };
 		00989965222236F700846592 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
 		00CEF6C622224D3B003D26D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		781AB88FA7098BB4044B8E5B /* Pods-Optumization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.release.xcconfig"; path = "Target Support Files/Pods-Optumization/Pods-Optumization.release.xcconfig"; sourceTree = "<group>"; };
 		A31C9DBF2222068600E9747C /* Optumization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optumization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31C9DC22222068600E9747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A31C9DC42222068600E9747C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,8 @@
 		A31C9DE52222068900E9747C /* OptumizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptumizationUITests.swift; sourceTree = "<group>"; };
 		A31C9DE72222068900E9747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31C9DF52222101F00E9747C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A6EA1378435FC3D1B5A9C859 /* libPods-Optumization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Optumization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE422421A6C16D598F7DC92A /* Pods-Optumization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optumization.debug.xcconfig"; path = "Target Support Files/Pods-Optumization/Pods-Optumization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CEF6C722224D3B003D26D1 /* MapKit.framework in Frameworks */,
+				10EC32C440B2D9F78A5C2CB9 /* libPods-Optumization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +92,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76D8C500A7A47CB72B919233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE422421A6C16D598F7DC92A /* Pods-Optumization.debug.xcconfig */,
+				781AB88FA7098BB4044B8E5B /* Pods-Optumization.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		87E492F94CE4860DD317389C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				00CEF6C622224D3B003D26D1 /* MapKit.framework */,
+				A6EA1378435FC3D1B5A9C859 /* libPods-Optumization.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +120,7 @@
 				A31C9DE42222068900E9747C /* OptumizationUITests */,
 				A31C9DC02222068600E9747C /* Products */,
 				87E492F94CE4860DD317389C /* Frameworks */,
+				76D8C500A7A47CB72B919233 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31C9DEA2222068900E9747C /* Build configuration list for PBXNativeTarget "Optumization" */;
 			buildPhases = (
+				7E1D5AE8E11E5D9D77E41C24 /* [CP] Check Pods Manifest.lock */,
 				A31C9DBB2222068600E9747C /* Sources */,
 				A31C9DBC2222068600E9747C /* Frameworks */,
 				A31C9DBD2222068600E9747C /* Resources */,
+				FAE6415694598F3E82287C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +301,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E1D5AE8E11E5D9D77E41C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optumization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE6415694598F3E82287C9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Optumization/Pods-Optumization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A31C9DBB2222068600E9747C /* Sources */ = {
@@ -467,6 +535,7 @@
 		};
 		A31C9DEB2222068900E9747C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE422421A6C16D598F7DC92A /* Pods-Optumization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +554,7 @@
 		};
 		A31C9DEC2222068900E9747C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781AB88FA7098BB4044B8E5B /* Pods-Optumization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
